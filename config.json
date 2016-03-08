@@ -20351,7 +20351,68 @@
                 "configuration/entityTypes/GPO/attributes/ImageLinks"
             ]
         }
-    ],
+		{
+			"uri": "configuration/entityTypes/Student",
+			"label": "Student",
+			"description": "This entity type is for representing Students",
+			"attributes": [
+				{
+					"uri": "configuration/entityTypes/Student/attributes/FirstName",
+					"name": "FirstName",
+					"label": "First Name",
+					"description": "Contains First Name of the Student",
+					"type": "String"
+				},{
+					"uri": "configuration/entityTypes/Student/attributes/LastName",
+					"name": "LastName",
+					"label": "Last Name",
+					"description": "Contains Last Name of the Student",
+					"type": "String"
+				}, {
+					"uri": "configuration/entityTypes/Student/attributes/Gender",
+					"name": "Gender",
+					"label": "Gender",
+					"description": "Gender",
+					"type": "String",
+					"values": ["Male", "Female", "Not Specified"]
+				}, {
+					"uri": "configuration/entityTypes/Student/attributes/Age",
+					"name": "Age",
+					"label": "Age",
+					"description": "Age",
+					"type": "Int"
+				},{
+					"uri": "configuration/entityTypes/Student/attributes/Address",
+					"name": "Address",
+					"label": "Address",
+					"description": "Contains Address of the Student",
+					"type": "Reference",
+					"referencedEntityTypeURI": "configuration/entityTypes/Location",
+					"relationshipTypeURI": "configuration/relationshipTypes/HasAddress",
+					"relationshipLabelPattern": "{configuration/relationshipTypes/HasAddress/attributes/AddressType}",
+					"referecedAttributeURIs": [
+						"configuration/relationTypes/HasAddress/attributes/AddressType",
+						"configuration/relationTypes/HasAddress/attributes/CareOf",
+						"configuration/relationTypes/HasAddress/attributes/Primary",
+						"configuration/relationTypes/HasAddress/attributes/AddressRank",
+						"configuration/entityTypes/Location/attributes/AddressLine1",
+						"configuration/entityTypes/Location/attributes/AddressLine2",
+						"configuration/entityTypes/Location/attributes/City",
+						"configuration/entityTypes/Location/attributes/StateProvince",
+						"configuration/entityTypes/Location/attributes/Zip",
+						"configuration/entityTypes/Location/attributes/Country"
+					]
+				}, {
+					"uri": "configuration/entityTypes/Student/attributes/Course",
+					"name": "Course",
+					"label": "Course",
+					"description": "Course",
+					"type": "String",
+					"lookupCode": "COURSES"
+				}
+			]
+		}
+	],
     "roles": [
         {
             "uri": "configuration/roles/Therapist",
