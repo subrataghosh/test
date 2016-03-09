@@ -20473,6 +20473,16 @@
                             "important": false,
                             "system": false,
                             "uri": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/FacultyNumber"
+                        },
+						{
+                            "label": "Number of Student",
+                            "name": "StudentNumber",
+                            "description": "",
+                            "type": "Int",
+                            "hidden": false,
+                            "important": false,
+                            "system": false,
+                            "uri": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/StudentNumber"
                         }
                     ]
                 },
