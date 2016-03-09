@@ -20389,27 +20389,40 @@
 					"description": "Age",
 					"type": "Int"
 				},{
-					"uri": "configuration/entityTypes/Student/attributes/Address",
-					"name": "Address",
-					"label": "Address",
-					"description": "Contains Address of the Student",
-					"type": "Reference",
-					"referencedEntityTypeURI": "configuration/entityTypes/Location",
-					"relationshipTypeURI": "configuration/relationshipTypes/HasAddress",
-					"relationshipLabelPattern": "{configuration/relationshipTypes/HasAddress/attributes/AddressType}",
-					"referecedAttributeURIs": [
-						"configuration/relationTypes/HasAddress/attributes/AddressType",
-						"configuration/relationTypes/HasAddress/attributes/CareOf",
-						"configuration/relationTypes/HasAddress/attributes/Primary",
-						"configuration/relationTypes/HasAddress/attributes/AddressRank",
-						"configuration/entityTypes/Location/attributes/AddressLine1",
-						"configuration/entityTypes/Location/attributes/AddressLine2",
-						"configuration/entityTypes/Location/attributes/City",
-						"configuration/entityTypes/Location/attributes/StateProvince",
-						"configuration/entityTypes/Location/attributes/Zip",
-						"configuration/entityTypes/Location/attributes/Country"
-					]
-				}, {
+                    "label": "Address",
+                    "name": "Address",
+                    "type": "Reference",
+                    "hidden": false,
+                    "important": false,
+                    "system": false,
+                    "relationshipLabelPattern": "{AddressType}",
+                    
+                    "uri": "configuration/entityTypes/Student/attributes/Address",
+					  "referencedEntityTypeURI": "configuration/entityTypes/Location",
+                    "relationshipTypeURI": "configuration/relationTypes/HasAddress",
+                    "referencedAttributeURIs": [
+                        "configuration/relationTypes/HasAddress/attributes/AddressType",
+                        "configuration/relationTypes/HasAddress/attributes/CareOf",
+                        "configuration/relationTypes/HasAddress/attributes/Primary",
+                        "configuration/relationTypes/HasAddress/attributes/AddressRank",
+                        "configuration/entityTypes/Location/attributes/AddressLine1",
+                        "configuration/entityTypes/Location/attributes/AddressLine2",
+                        "configuration/entityTypes/Location/attributes/Premise",
+                        "configuration/entityTypes/Location/attributes/Street",
+                        "configuration/entityTypes/Location/attributes/City",
+                        "configuration/entityTypes/Location/attributes/StateProvince",
+                        "configuration/entityTypes/Location/attributes/Zip",
+                        "configuration/entityTypes/Location/attributes/Country",
+                        "configuration/entityTypes/Location/attributes/GeoLocation",
+                        "configuration/entityTypes/Location/attributes/AddressInput",
+                        "configuration/entityTypes/Location/attributes/SubAdministrativeArea",
+                        "configuration/relationTypes/HasAddress/attributes/Phone",
+                        "configuration/relationTypes/HasAddress/attributes/DEA",
+                        "configuration/relationTypes/HasAddress/attributes/OfficeInformation",
+                        "configuration/relationTypes/HasAddress/attributes/Active"
+                    ]
+                  }, 
+				{
 					"uri": "configuration/entityTypes/Student/attributes/Course",
 					"name": "Course",
 					"label": "Course",
