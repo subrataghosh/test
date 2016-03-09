@@ -20357,6 +20357,7 @@
 			"label": "Student",
 			"description": "This entity type is for representing Students",
             "dataLabelPattern": "{FirstName}",
+            "typeColor": "#99CCFF",
 			"attributes": [
 				{
 					"uri": "configuration/entityTypes/Student/attributes/FirstName",
@@ -20405,6 +20406,21 @@
                     "important": false,
                     "system": false
 				},{
+                    "label": "University Name",
+                    "name": "universityName",
+                    "description": "",
+                    "type": "String",
+                    "hidden": false,
+                    "important": false,
+                    "system": false,
+                    "faceted": true,
+                    "searchable": true,
+                    "attributeOrdering": {
+                        "orderType": "ASC",
+                        "orderingStrategy": "LUD"
+                    },
+                    "uri": "configuration/entityTypes/UNIVERSITY/attributes/universityName"
+                },{
                     "label": "Address",
                     "name": "Address",
                     "type": "Reference",
