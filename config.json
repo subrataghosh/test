@@ -20356,6 +20356,7 @@
 			"uri": "configuration/entityTypes/Student",
 			"label": "Student",
 			"description": "This entity type is for representing Students",
+            "dataLabelPattern": "{FirstName}",
 			"attributes": [
 				{
 					"uri": "configuration/entityTypes/Student/attributes/FirstName",
