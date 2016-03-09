@@ -1,0 +1,25 @@
+{
+    "COURSES": {
+        "CMSA": {
+            "displayName": "Computer Science (Honors)"
+        },
+        "MTMA": {
+            "displayName": "Mathematics (Honors)"
+        },
+        "PHYA": {
+            "displayName": "Physics (Honors)"
+        },
+        "ECOA": {
+            "displayName": "Economics (Honors)"
+        },
+		"CMSG": {
+            "displayName": "Computer Science (General)"
+        },
+        "MTMG": {
+            "displayName": "Mathematics (General)"
+        },
+        "PHYG": {
+            "displayName": "Physics (General)"
+        }
+    }
+}
