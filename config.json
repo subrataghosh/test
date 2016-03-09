@@ -20364,6 +20364,12 @@
 					"description": "Contains First Name of the Student",
 					"type": "String"
 				},{
+					"uri": "configuration/entityTypes/Student/attributes/MiddleName",
+					"name": "MiddleName",
+					"label": "Middle Name",
+					"description": "Contains Middle Name of the Student",
+					"type": "String"
+				},{
 					"uri": "configuration/entityTypes/Student/attributes/LastName",
 					"name": "LastName",
 					"label": "Last Name",
