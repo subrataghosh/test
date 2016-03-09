@@ -20410,6 +20410,12 @@
 					"description": "Course",
 					"type": "String",
 					"lookupCode": "COURSES"
+				}, {
+					"uri": "configuration/entityTypes/Student/attributes/Migration",
+					"name": "Migration",
+					"label": "Migration",
+					"description": "Migration",
+					"type": "Boolean"
 				}
 			]
 		},
