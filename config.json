@@ -20362,32 +20362,47 @@
 					"name": "FirstName",
 					"label": "First Name",
 					"description": "Contains First Name of the Student",
-					"type": "String"
+					"type": "String",
+					"hidden": false,
+                    "important": false,
+                    "system": false
 				},{
 					"uri": "configuration/entityTypes/Student/attributes/MiddleName",
 					"name": "MiddleName",
 					"label": "Middle Name",
 					"description": "Contains Middle Name of the Student",
-					"type": "String"
+					"type": "String",
+					"hidden": false,
+                    "important": false,
+                    "system": false
 				},{
 					"uri": "configuration/entityTypes/Student/attributes/LastName",
 					"name": "LastName",
 					"label": "Last Name",
 					"description": "Contains Last Name of the Student",
-					"type": "String"
+					"type": "String",
+					"hidden": false,
+                    "important": false,
+                    "system": false
 				}, {
 					"uri": "configuration/entityTypes/Student/attributes/Gender",
 					"name": "Gender",
 					"label": "Gender",
 					"description": "Gender",
 					"type": "String",
-					"values": ["Male", "Female", "Not Specified"]
+					"values": ["Male", "Female", "Not Specified"],
+					"hidden": false,
+                    "important": false,
+                    "system": false
 				}, {
 					"uri": "configuration/entityTypes/Student/attributes/Age",
 					"name": "Age",
 					"label": "Age",
 					"description": "Age",
-					"type": "Int"
+					"type": "Int",
+					"hidden": false,
+                    "important": false,
+                    "system": false
 				},{
                     "label": "Address",
                     "name": "Address",
@@ -20395,10 +20410,9 @@
                     "hidden": false,
                     "important": false,
                     "system": false,
-                    "relationshipLabelPattern": "{AddressType}",
-                    
+                    "relationshipLabelPattern": "{AddressType}",                    
                     "uri": "configuration/entityTypes/Student/attributes/Address",
-					  "referencedEntityTypeURI": "configuration/entityTypes/Location",
+					"referencedEntityTypeURI": "configuration/entityTypes/Location",
                     "relationshipTypeURI": "configuration/relationTypes/HasAddress",
                     "referencedAttributeURIs": [
                         "configuration/relationTypes/HasAddress/attributes/AddressType",
