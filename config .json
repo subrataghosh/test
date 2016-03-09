@@ -20350,7 +20350,8 @@
             "imageAttributeURIs": [
                 "configuration/entityTypes/GPO/attributes/ImageLinks"
             ]
-        }
+
+        },
 		{
 			"uri": "configuration/entityTypes/Student",
 			"label": "Student",
@@ -20411,8 +20412,114 @@
 					"lookupCode": "COURSES"
 				}
 			]
+		},
+		{
+		    "uri": "configuration/entityTypes/UNIVERSITY",
+            "label": "UNIVERSITY",
+            "description": "UNIVERSITY DETAIL",
+            "dataLabelPattern": "{universutyName}",
+            "typeColor": "#99CCFF",
+            "attributes": [
+                {
+                    "label": "University Name",
+                    "name": "universutyName",
+                    "description": "",
+                    "type": "String",
+                    "hidden": false,
+                    "important": false,
+                    "system": false,
+                    "faceted": true,
+                    "searchable": true,
+                    "attributeOrdering": {
+                        "orderType": "ASC",
+                        "orderingStrategy": "LUD"
+                    },
+                    "uri": "configuration/entityTypes/UNIVERSITY/attributes/universutyName"
+                },
+                {
+				"label": "Department",
+                "name": "Department",
+                "type": "Nested",
+                "hidden": false,
+                "important": false,
+                "uri": "configuration/entityTypes/UNIVERSITY/attributes/Department",
+                "attributes": [
+                        {
+                            "label": "Department Name",
+                            "name": "DepartmentName",
+                            "description": "",
+                            "type": "String",
+                            "hidden": false,
+                            "important": false,
+                            "system": false,
+                            "uri": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/DepartmentName"
+                        },
+                        {
+                            "label": "HOD",
+                            "name": "HOD",
+                            "description": "",
+                            "type": "String",
+                            "hidden": false,
+                            "important": false,
+                            "system": false,
+                            "uri": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/HOD"
+                        },
+                        {
+                            "label": "Number of Faculty",
+                            "name": "FacultyNumber",
+                            "description": "",
+                            "type": "Int",
+                            "hidden": false,
+                            "important": false,
+                            "system": false,
+                            "uri": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/FacultyNumber"
+                        }
+                    ]
+                },
+				{
+				"label": "Address",
+                "name": "Address",
+                "type": "Reference",
+                "hidden": false,
+                "important": false,
+                "system": false,
+                "faceted": false,
+                "searchable": true,
+                "relationshipLabelPattern": "{AddressType}, {AddressRank} ",
+                "attributeOrdering": {
+                        "fieldURI": "configuration/relationTypes/HasAddress/attributes/AddressRank",
+                        "orderType": "ASC",
+                        "orderingStrategy": "FieldBased"
+                    },
+                "uri": "configuration/entityTypes/UNIVERSITY/attributes/Address",
+                "referencedAttributeURIs": [
+                        "configuration/relationTypes/HasAddress/attributes/AddressType",
+                        "configuration/relationTypes/HasAddress/attributes/CareOf",
+                        "configuration/relationTypes/HasAddress/attributes/Primary",
+                        "configuration/relationTypes/HasAddress/attributes/AddressRank",
+                        "configuration/entityTypes/Location/attributes/AddressLine1",
+                        "configuration/entityTypes/Location/attributes/AddressLine2",
+                        "configuration/entityTypes/Location/attributes/City",
+                        "configuration/entityTypes/Location/attributes/StateProvince",
+                        "configuration/entityTypes/Location/attributes/Zip",
+                        "configuration/entityTypes/Location/attributes/Country",
+                        "configuration/entityTypes/Location/attributes/GeoLocation",
+                        "configuration/entityTypes/Location/attributes/AddressInput",
+                        "configuration/entityTypes/Location/attributes/SubAdministrativeArea",
+                        "configuration/relationTypes/HasAddress/attributes/Phone",
+                        "configuration/relationTypes/HasAddress/attributes/DEA",
+                        "configuration/relationTypes/HasAddress/attributes/OfficeInformation",
+                        "configuration/relationTypes/HasAddress/attributes/Active",
+                        "configuration/relationTypes/HasAddress/attributes/RankConfidence",
+                        "configuration/relationTypes/HasAddress/attributes/AddressBestVisit",
+                        "configuration/relationTypes/HasAddress/attributes/CDS"
+                    ],
+                  "referencedEntityTypeURI": "configuration/entityTypes/Location",
+                  "relationshipTypeURI": "configuration/relationTypes/HasAddress"
+                }
+				]
 		}
-	],
+    ],
     "roles": [
         {
             "uri": "configuration/roles/Therapist",
