@@ -20406,21 +20406,6 @@
                     "important": false,
                     "system": false
 				},{
-                    "label": "University Name",
-                    "name": "universityName",
-                    "description": "",
-                    "type": "String",
-                    "hidden": false,
-                    "important": false,
-                    "system": false,
-                    "faceted": true,
-                    "searchable": true,
-                    "attributeOrdering": {
-                        "orderType": "ASC",
-                        "orderingStrategy": "LUD"
-                    },
-                    "uri": "configuration/entityTypes/UNIVERSITY/attributes/universityName"
-                },{
                     "label": "Address",
                     "name": "Address",
                     "type": "Reference",
