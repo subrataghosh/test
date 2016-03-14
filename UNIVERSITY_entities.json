@@ -1,0 +1,610 @@
+[{
+	"type": "configuration/entityTypes/UNIVERSITY",
+	"crosswalks": [{
+		"value": "1",
+		"type": "configuration/sources/LinkedIn"
+	}],
+	"attributes": {
+		"universutyName": [{
+			"value":"University of Calcutta"
+		}],                
+		"Department": [{
+			"value": {
+				"DepartmentName": [{
+					"value":"Arts"
+				}],
+				"HOD": [{
+					"value":"Sandip Nag"
+				}],
+				"FacultyNumber": [{
+					"value":50
+				}],
+				"StudentNumber": [{
+					"value":1200
+				}]			
+			}
+		},{
+			"value": {
+				"DepartmentName": [{
+					"value":"Science"
+				}],
+				"HOD": [{
+					"value":"Alok Nath"
+				}],
+				"FacultyNumber": [{
+					"value":30
+				}],
+				"StudentNumber": [{
+					"value":900
+				}]			
+			}
+		},{
+			"value": {
+				"DepartmentName": [{
+					"value":"Commerce"
+				}],
+				"HOD": [{
+					"value":"Arpan Singh"
+				}],
+				"FacultyNumber": [{
+					"value":60
+				}],
+				"StudentNumber": [{
+					"value":2500
+				}]			
+			}
+		},{
+			"value": {
+				"DepartmentName": [{
+					"value":"Engineering"
+				}],
+				"HOD": [{
+					"value":"Souvik Kar"
+				}],
+				"FacultyNumber": [{
+					"value":30
+				}],
+				"StudentNumber": [{
+					"value":1000
+				}]			
+			}
+		},{
+			"value": {
+				"DepartmentName": [{
+					"value":"Law"
+				}],
+				"HOD": [{
+					"value":"Hemant Kumar"
+				}],
+				"FacultyNumber": [{
+					"value":16
+				}],
+				"StudentNumber": [{
+					"value":200
+				}]			
+			}
+		}],                       
+		"Address": [{
+			"value": {
+				"City": [{
+					"value": "Kolkata"
+				}],
+				"StateProvince": [{
+					"value": "West Bengal"
+				}],
+				"Country": [{
+					"value": "India"
+				}]
+			}
+        }]
+	}
+},{
+	"type": "configuration/entityTypes/UNIVERSITY",
+	"crosswalks": [{
+		"value": "1",
+		"type": "configuration/sources/FB"
+	}],
+	"attributes": {
+		"universutyName": [{
+			"value":"Jadavpur University"
+		}],                
+		"Department": [{
+			"value": {
+				"DepartmentName": [{
+					"value":"Science"
+				}],
+				"HOD": [{
+					"value":"Surajit Sen"
+				}],
+				"FacultyNumber": [{
+					"value":40
+				}],
+				"StudentNumber": [{
+					"value":1100
+				},{
+					"value":"Engineering"
+				}],
+				"HOD": [{
+					"value":"Surajit Boral"
+				}],
+				"FacultyNumber": [{
+					"value":60
+				}],
+				"StudentNumber": [{
+					"value":2400
+				}]			
+			}
+		}],                       
+		"Address": [{
+			"value": {
+				"AddressLine1": [{
+					"value": "Jadavpur"
+				}],
+				"City": [{
+					"value": "Kolkata"
+				}],
+				"StateProvince": [{
+					"value": "West Bengal"
+				}],
+				"Country": [{
+					"value": "India"
+				}]
+			}
+        }]
+	}
+},{
+	"type": "configuration/entityTypes/UNIVERSITY",
+	"crosswalks": [{
+		"value": "2",
+		"type": "configuration/sources/LinkedIn"
+	}],
+	"attributes": {
+		"universutyName": [{
+			"value":"University of Burdwan"
+		}],                
+		"Department": [{
+			"value": {
+				"DepartmentName": [{
+					"value":"Arts"
+				}],
+				"HOD": [{
+					"value":"Vishal Singh"
+				}],
+				"FacultyNumber": [{
+					"value":50
+				}],
+				"StudentNumber": [{
+					"value":1200
+				}]			
+			}
+		},{
+			"value": {
+				"DepartmentName": [{
+					"value":"Science"
+				}],
+				"HOD": [{
+					"value":"Souradip Das"
+				}],
+				"FacultyNumber": [{
+					"value":30
+				}],
+				"StudentNumber": [{
+					"value":900
+				}]			
+			}
+		},{
+			"value": {
+				"DepartmentName": [{
+					"value":"Commerce"
+				}],
+				"HOD": [{
+					"value":"Mitali Das"
+				}],
+				"FacultyNumber": [{
+					"value":60
+				}],
+				"StudentNumber": [{
+					"value":2500
+				}]			
+			}
+		}],                       
+		"Address": [{
+			"value": {
+				"City": [{
+					"value": "Bardhaman"
+				}],
+				"StateProvince": [{
+					"value": "West Bengal"
+				}],
+				"Country": [{
+					"value": "India"
+				}]
+			}
+        }]
+	}
+},{
+	"type": "configuration/entityTypes/UNIVERSITY",
+	"crosswalks": [{
+		"value": "3",
+		"type": "configuration/sources/LinkedIn"
+	}],
+	"attributes": {
+		"universutyName": [{
+			"value":"University of Kalyani"
+		}],                
+		"Department": [{
+			"value": {
+				"DepartmentName": [{
+					"value":"Science"
+				}],
+				"HOD": [{
+					"value":"Atreyee Das"
+				}],
+				"FacultyNumber": [{
+					"value":32
+				}],
+				"StudentNumber": [{
+					"value":840
+				}]			
+			}
+		}],                       
+		"Address": [{
+			"value": {
+				"City": [{
+					"value": "Kalyani"
+				}],
+				"StateProvince": [{
+					"value": "West Bengal"
+				}],
+				"Country": [{
+					"value": "India"
+				}]
+			}
+        }]
+	}
+},{
+	"type": "configuration/entityTypes/UNIVERSITY",
+	"crosswalks": [{
+		"value": "4",
+		"type": "configuration/sources/LinkedIn"
+	}],
+	"attributes": {
+		"universutyName": [{
+			"value":"Visva-Bharati University"
+		}],                
+		"Department": [{
+			"value": {
+				"DepartmentName": [{
+					"value":"Science"
+				}],
+				"HOD": [{
+					"value":"Alok Nath"
+				}],
+				"FacultyNumber": [{
+					"value":30
+				}],
+				"StudentNumber": [{
+					"value":900
+				}]			
+			}
+		}],                       
+		"Address": [{
+			"value": {
+				"City": [{
+					"value": "Santiniketan"
+				}],
+				"StateProvince": [{
+					"value": "West Bengal"
+				}],
+				"Country": [{
+					"value": "India"
+				}]
+			}
+        }]
+	}
+},{
+	"type": "configuration/entityTypes/UNIVERSITY",
+	"crosswalks": [{
+		"value": "2",
+		"type": "configuration/sources/FB"
+	}],
+	"attributes": {
+		"universutyName": [{
+			"value":"Presidency University"
+		}],                
+		"Department": [{
+			"value": {
+				"DepartmentName": [{
+					"value":"Arts"
+				}],
+				"HOD": [{
+					"value":"Iman Sinha"
+				}],
+				"FacultyNumber": [{
+					"value":30
+				}],
+				"StudentNumber": [{
+					"value":900
+				}]			
+			}
+		}],                       
+		"Address": [{
+			"value": {
+				"City": [{
+					"value": "Kolkata"
+				}],
+				"StateProvince": [{
+					"value": "West Bengal"
+				}],
+				"Country": [{
+					"value": "India"
+				}]
+			}
+        }]
+	}
+},{
+	"type": "configuration/entityTypes/UNIVERSITY",
+	"crosswalks": [{
+		"value": "5",
+		"type": "configuration/sources/LinkedIn"
+	}],
+	"attributes": {
+		"universutyName": [{
+			"value":"University of Mumbai"
+		}],                
+		"Department": [{
+			"value": {
+				"DepartmentName": [{
+					"value":"Arts"
+				}],
+				"HOD": [{
+					"value":"Sandip Mehta"
+				}],
+				"FacultyNumber": [{
+					"value":150
+				}],
+				"StudentNumber": [{
+					"value":3000
+				}]			
+			}
+		},{
+			"value": {
+				"DepartmentName": [{
+					"value":"Science"
+				}],
+				"HOD": [{
+					"value":"Amit Dave"
+				}],
+				"FacultyNumber": [{
+					"value":30
+				}],
+				"StudentNumber": [{
+					"value":900
+				}]			
+			}
+		},{
+			"value": {
+				"DepartmentName": [{
+					"value":"Commerce"
+				}],
+				"HOD": [{
+					"value":"Ajay Sinha"
+				}],
+				"FacultyNumber": [{
+					"value":200
+				}],
+				"StudentNumber": [{
+					"value":4500
+				}]			
+			}
+		}],                       
+		"Address": [{
+			"value": {
+				"City": [{
+					"value": "Mumbai"
+				}],
+				"StateProvince": [{
+					"value": "Maharashtra"
+				}],
+				"Country": [{
+					"value": "India"
+				}]
+			}
+        }]
+	}
+},{
+	"type": "configuration/entityTypes/UNIVERSITY",
+	"crosswalks": [{
+		"value": "6",
+		"type": "configuration/sources/LinkedIn"
+	}],
+	"attributes": {
+		"universutyName": [{
+			"value":"University of Delhi"
+		}],                
+		"Department": [{
+			"value": {
+				"DepartmentName": [{
+					"value":"Arts"
+				}],
+				"HOD": [{
+					"value":"Arpita Halder"
+				}],
+				"FacultyNumber": [{
+					"value":50
+				}],
+				"StudentNumber": [{
+					"value":1200
+				}]			
+			}
+		},{
+			"value": {
+				"DepartmentName": [{
+					"value":"Science"
+				}],
+				"HOD": [{
+					"value":"Rahul Malhotra"
+				}],
+				"FacultyNumber": [{
+					"value":30
+				}],
+				"StudentNumber": [{
+					"value":900
+				}]			
+			}
+		},{
+			"value": {
+				"DepartmentName": [{
+					"value":"Commerce"
+				}],
+				"HOD": [{
+					"value":"Saroj Singh"
+				}],
+				"FacultyNumber": [{
+					"value":60
+				}],
+				"StudentNumber": [{
+					"value":2500
+				}]			
+			}
+		}],                       
+		"Address": [{
+			"value": {
+				"City": [{
+					"value": "Delhi"
+				}],
+				"StateProvince": [{
+					"value": "Delhi"
+				}],
+				"Country": [{
+					"value": "India"
+				}]
+			}
+        }]
+	}
+},{
+	"type": "configuration/entityTypes/UNIVERSITY",
+	"crosswalks": [{
+		"value": "7",
+		"type": "configuration/sources/LinkedIn"
+	}],
+	"attributes": {
+		"universutyName": [{
+			"value":"University of Pune"
+		}],                
+		"Department": [{
+			"value": {
+				"DepartmentName": [{
+					"value":"Science"
+				}],
+				"HOD": [{
+					"value":"Swati Kulkarni"
+				}],
+				"FacultyNumber": [{
+					"value":30
+				}],
+				"StudentNumber": [{
+					"value":900
+				}]			
+			}
+		}],                       
+		"Address": [{
+			"value": {
+				"City": [{
+					"value": "Pune"
+				}],
+				"StateProvince": [{
+					"value": "Maharashtra"
+				}],
+				"Country": [{
+					"value": "India"
+				}]
+			}
+        }]
+	}
+},{
+	"type": "configuration/entityTypes/UNIVERSITY",
+	"crosswalks": [{
+		"value": "3",
+		"type": "configuration/sources/FB"
+	}],
+	"attributes": {
+		"universutyName": [{
+			"value":"West Bengal State University"
+		}],                
+		"Department": [{
+			"value": {
+				"DepartmentName": [{
+					"value":"Arts"
+				}],
+				"HOD": [{
+					"value":"Eshita Saha"
+				}],
+				"FacultyNumber": [{
+					"value":50
+				}],
+				"StudentNumber": [{
+					"value":1200
+				}]			
+			}
+		},{
+			"value": {
+				"DepartmentName": [{
+					"value":"Science"
+				}],
+				"HOD": [{
+					"value":"Aniruddha Mukherjee"
+				}],
+				"FacultyNumber": [{
+					"value":30
+				}],
+				"StudentNumber": [{
+					"value":900
+				}]			
+			}
+		},{
+			"value": {
+				"DepartmentName": [{
+					"value":"Commerce"
+				}],
+				"HOD": [{
+					"value":"Joyita Pal"
+				}],
+				"FacultyNumber": [{
+					"value":60
+				}],
+				"StudentNumber": [{
+					"value":2500
+				}]			
+			}
+		},{
+			"value": {
+				"DepartmentName": [{
+					"value":"Engineering"
+				}],
+				"HOD": [{
+					"value":"Sudev Maity"
+				}],
+				"FacultyNumber": [{
+					"value":30
+				}],
+				"StudentNumber": [{
+					"value":1000
+				}]			
+			}
+		}],                       
+		"Address": [{
+			"value": {
+				"City": [{
+					"value": "Barasat"
+				}],
+				"StateProvince": [{
+					"value": "West Bengal"
+				}],
+				"Country": [{
+					"value": "India"
+				}]
+			}
+        }]
+	}
+}]
