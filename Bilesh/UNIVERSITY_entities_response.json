@@ -1,0 +1,1424 @@
+[
+  {
+    "index": 0,
+    "object": {
+      "uri": "entities/0006lnm",
+      "type": "configuration/entityTypes/UNIVERSITY",
+      "createdBy": "rudradip.misra",
+      "createdTime": 1457956013653,
+      "updatedBy": "rudradip.misra",
+      "updatedTime": 1457956013653,
+      "attributes": {
+        "universutyName": [
+          {
+            "type": "configuration/entityTypes/UNIVERSITY/attributes/universutyName",
+            "ov": true,
+            "value": "University of Calcutta",
+            "uri": "entities/0006lnm/attributes/universutyName/1qIeh0"
+          }
+        ],
+        "Department": [
+          {
+            "label": "",
+            "value": {
+              "DepartmentName": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/DepartmentName",
+                  "ov": true,
+                  "value": "Arts",
+                  "uri": "entities/0006lnm/attributes/Department/1qIixG/DepartmentName/1qInDW"
+                }
+              ],
+              "HOD": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/HOD",
+                  "ov": true,
+                  "value": "Sandip Nag",
+                  "uri": "entities/0006lnm/attributes/Department/1qIixG/HOD/1qIrTm"
+                }
+              ],
+              "FacultyNumber": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/FacultyNumber",
+                  "ov": true,
+                  "value": "50",
+                  "uri": "entities/0006lnm/attributes/Department/1qIixG/FacultyNumber/1qIvk2"
+                }
+              ],
+              "StudentNumber": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/StudentNumber",
+                  "ov": true,
+                  "value": "1200",
+                  "uri": "entities/0006lnm/attributes/Department/1qIixG/StudentNumber/1qJ00I"
+                }
+              ]
+            },
+            "ov": true,
+            "uri": "entities/0006lnm/attributes/Department/1qIixG"
+          },
+          {
+            "label": "",
+            "value": {
+              "DepartmentName": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/DepartmentName",
+                  "ov": true,
+                  "value": "Science",
+                  "uri": "entities/0006lnm/attributes/Department/1qJ4GY/DepartmentName/1qJ8Wo"
+                }
+              ],
+              "HOD": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/HOD",
+                  "ov": true,
+                  "value": "Alok Nath",
+                  "uri": "entities/0006lnm/attributes/Department/1qJ4GY/HOD/1qJCn4"
+                }
+              ],
+              "FacultyNumber": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/FacultyNumber",
+                  "ov": true,
+                  "value": "30",
+                  "uri": "entities/0006lnm/attributes/Department/1qJ4GY/FacultyNumber/1qJH3K"
+                }
+              ],
+              "StudentNumber": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/StudentNumber",
+                  "ov": true,
+                  "value": "900",
+                  "uri": "entities/0006lnm/attributes/Department/1qJ4GY/StudentNumber/1qJLJa"
+                }
+              ]
+            },
+            "ov": true,
+            "uri": "entities/0006lnm/attributes/Department/1qJ4GY"
+          },
+          {
+            "label": "",
+            "value": {
+              "DepartmentName": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/DepartmentName",
+                  "ov": true,
+                  "value": "Commerce",
+                  "uri": "entities/0006lnm/attributes/Department/1qJPZq/DepartmentName/1qJTq6"
+                }
+              ],
+              "HOD": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/HOD",
+                  "ov": true,
+                  "value": "Arpan Singh",
+                  "uri": "entities/0006lnm/attributes/Department/1qJPZq/HOD/1qJY6M"
+                }
+              ],
+              "FacultyNumber": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/FacultyNumber",
+                  "ov": true,
+                  "value": "60",
+                  "uri": "entities/0006lnm/attributes/Department/1qJPZq/FacultyNumber/1qJcMc"
+                }
+              ],
+              "StudentNumber": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/StudentNumber",
+                  "ov": true,
+                  "value": "2500",
+                  "uri": "entities/0006lnm/attributes/Department/1qJPZq/StudentNumber/1qJgcs"
+                }
+              ]
+            },
+            "ov": true,
+            "uri": "entities/0006lnm/attributes/Department/1qJPZq"
+          },
+          {
+            "label": "",
+            "value": {
+              "DepartmentName": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/DepartmentName",
+                  "ov": true,
+                  "value": "Engineering",
+                  "uri": "entities/0006lnm/attributes/Department/1qJkt8/DepartmentName/1qJp9O"
+                }
+              ],
+              "HOD": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/HOD",
+                  "ov": true,
+                  "value": "Souvik Kar",
+                  "uri": "entities/0006lnm/attributes/Department/1qJkt8/HOD/1qJtPe"
+                }
+              ],
+              "FacultyNumber": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/FacultyNumber",
+                  "ov": true,
+                  "value": "30",
+                  "uri": "entities/0006lnm/attributes/Department/1qJkt8/FacultyNumber/1qJxfu"
+                }
+              ],
+              "StudentNumber": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/StudentNumber",
+                  "ov": true,
+                  "value": "1000",
+                  "uri": "entities/0006lnm/attributes/Department/1qJkt8/StudentNumber/1qK1wA"
+                }
+              ]
+            },
+            "ov": true,
+            "uri": "entities/0006lnm/attributes/Department/1qJkt8"
+          },
+          {
+            "label": "",
+            "value": {
+              "DepartmentName": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/DepartmentName",
+                  "ov": true,
+                  "value": "Law",
+                  "uri": "entities/0006lnm/attributes/Department/1qK6CQ/DepartmentName/1qKASg"
+                }
+              ],
+              "HOD": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/HOD",
+                  "ov": true,
+                  "value": "Hemant Kumar",
+                  "uri": "entities/0006lnm/attributes/Department/1qK6CQ/HOD/1qKEiw"
+                }
+              ],
+              "FacultyNumber": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/FacultyNumber",
+                  "ov": true,
+                  "value": "16",
+                  "uri": "entities/0006lnm/attributes/Department/1qK6CQ/FacultyNumber/1qKIzC"
+                }
+              ],
+              "StudentNumber": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/StudentNumber",
+                  "ov": true,
+                  "value": "200",
+                  "uri": "entities/0006lnm/attributes/Department/1qK6CQ/StudentNumber/1qKNFS"
+                }
+              ]
+            },
+            "ov": true,
+            "uri": "entities/0006lnm/attributes/Department/1qK6CQ"
+          }
+        ]
+      },
+      "isFavorite": false,
+      "crosswalks": [
+        {
+          "uri": "entities/0006lnm/crosswalks/1qRFTG",
+          "type": "configuration/sources/Reltio",
+          "value": "0006lnm",
+          "reltioLoadDate": "2016-03-14T11:46:53.653Z",
+          "createDate": "2016-03-14T11:46:53.653Z",
+          "updateDate": "2016-03-14T11:46:53.653Z",
+          "attributes": [
+            "entities/0006lnm/attributes/Department/1qK6CQ/StudentNumber/1qKNFS",
+            "entities/0006lnm/attributes/Department/1qJkt8/FacultyNumber/1qJxfu",
+            "entities/0006lnm/attributes/Department/1qIixG/DepartmentName/1qInDW",
+            "entities/0006lnm/attributes/Department/1qK6CQ",
+            "entities/0006lnm/attributes/Department/1qJPZq",
+            "entities/0006lnm/attributes/Department/1qIixG/FacultyNumber/1qIvk2",
+            "entities/0006lnm/attributes/Department/1qJ4GY/DepartmentName/1qJ8Wo",
+            "entities/0006lnm/attributes/Department/1qJkt8/HOD/1qJtPe",
+            "entities/0006lnm/attributes/Department/1qJ4GY/FacultyNumber/1qJH3K",
+            "entities/0006lnm/attributes/Department/1qJ4GY",
+            "entities/0006lnm/attributes/Department/1qJPZq/StudentNumber/1qJgcs",
+            "entities/0006lnm/attributes/universutyName/1qIeh0",
+            "entities/0006lnm/attributes/Department/1qJkt8",
+            "entities/0006lnm/attributes/Department/1qJPZq/HOD/1qJY6M",
+            "entities/0006lnm/attributes/Department/1qJ4GY/HOD/1qJCn4",
+            "entities/0006lnm/attributes/Department/1qJkt8/StudentNumber/1qK1wA",
+            "entities/0006lnm/attributes/Department/1qK6CQ/FacultyNumber/1qKIzC",
+            "entities/0006lnm/attributes/Department/1qIixG",
+            "entities/0006lnm/attributes/Department/1qJPZq/FacultyNumber/1qJcMc",
+            "entities/0006lnm/attributes/Department/1qK6CQ/HOD/1qKEiw",
+            "entities/0006lnm/attributes/Department/1qJkt8/DepartmentName/1qJp9O",
+            "entities/0006lnm/attributes/Department/1qIixG/HOD/1qIrTm",
+            "entities/0006lnm/attributes/Department/1qK6CQ/DepartmentName/1qKASg",
+            "entities/0006lnm/attributes/Department/1qJ4GY/StudentNumber/1qJLJa",
+            "entities/0006lnm/attributes/Department/1qIixG/StudentNumber/1qJ00I",
+            "entities/0006lnm/attributes/Department/1qJPZq/DepartmentName/1qJTq6"
+          ],
+          "singleAttributeUpdateDates": {}
+        }
+      ],
+      "label": "University of Calcutta",
+      "secondaryLabel": ""
+    },
+    "successful": true
+  },
+  {
+    "index": 1,
+    "object": {
+      "uri": "entities/0006q42",
+      "type": "configuration/entityTypes/UNIVERSITY",
+      "createdBy": "rudradip.misra",
+      "createdTime": 1457956013653,
+      "updatedBy": "rudradip.misra",
+      "updatedTime": 1457956013653,
+      "attributes": {
+        "universutyName": [
+          {
+            "type": "configuration/entityTypes/UNIVERSITY/attributes/universutyName",
+            "ov": true,
+            "value": "Jadavpur University",
+            "uri": "entities/0006q42/attributes/universutyName/1qKRVi"
+          }
+        ],
+        "Department": [
+          {
+            "label": "",
+            "value": {
+              "DepartmentName": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/DepartmentName",
+                  "ov": true,
+                  "value": "Science",
+                  "uri": "entities/0006q42/attributes/Department/1qKVly/DepartmentName/1qKa2E"
+                }
+              ],
+              "HOD": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/HOD",
+                  "ov": true,
+                  "value": "Surajit Boral",
+                  "uri": "entities/0006q42/attributes/Department/1qKVly/HOD/1qKeIU"
+                }
+              ],
+              "FacultyNumber": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/FacultyNumber",
+                  "ov": true,
+                  "value": "60",
+                  "uri": "entities/0006q42/attributes/Department/1qKVly/FacultyNumber/1qKiYk"
+                }
+              ],
+              "StudentNumber": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/StudentNumber",
+                  "ov": true,
+                  "value": "2400",
+                  "uri": "entities/0006q42/attributes/Department/1qKVly/StudentNumber/1qKmp0"
+                }
+              ]
+            },
+            "ov": true,
+            "uri": "entities/0006q42/attributes/Department/1qKVly"
+          }
+        ]
+      },
+      "isFavorite": false,
+      "crosswalks": [
+        {
+          "uri": "entities/0006q42/crosswalks/1qRJjW",
+          "type": "configuration/sources/Reltio",
+          "value": "0006q42",
+          "reltioLoadDate": "2016-03-14T11:46:53.653Z",
+          "createDate": "2016-03-14T11:46:53.653Z",
+          "updateDate": "2016-03-14T11:46:53.653Z",
+          "attributes": [
+            "entities/0006q42/attributes/Department/1qKVly",
+            "entities/0006q42/attributes/Department/1qKVly/HOD/1qKeIU",
+            "entities/0006q42/attributes/universutyName/1qKRVi",
+            "entities/0006q42/attributes/Department/1qKVly/StudentNumber/1qKmp0",
+            "entities/0006q42/attributes/Department/1qKVly/FacultyNumber/1qKiYk",
+            "entities/0006q42/attributes/Department/1qKVly/DepartmentName/1qKa2E"
+          ],
+          "singleAttributeUpdateDates": {}
+        }
+      ],
+      "label": "Jadavpur University",
+      "secondaryLabel": ""
+    },
+    "successful": true
+  },
+  {
+    "index": 2,
+    "object": {
+      "uri": "entities/0006uKI",
+      "type": "configuration/entityTypes/UNIVERSITY",
+      "createdBy": "rudradip.misra",
+      "createdTime": 1457956013653,
+      "updatedBy": "rudradip.misra",
+      "updatedTime": 1457956013653,
+      "attributes": {
+        "universutyName": [
+          {
+            "type": "configuration/entityTypes/UNIVERSITY/attributes/universutyName",
+            "ov": true,
+            "value": "University of Burdwan",
+            "uri": "entities/0006uKI/attributes/universutyName/1qKr5G"
+          }
+        ],
+        "Department": [
+          {
+            "label": "",
+            "value": {
+              "DepartmentName": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/DepartmentName",
+                  "ov": true,
+                  "value": "Arts",
+                  "uri": "entities/0006uKI/attributes/Department/1qKvLW/DepartmentName/1qKzbm"
+                }
+              ],
+              "HOD": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/HOD",
+                  "ov": true,
+                  "value": "Vishal Singh",
+                  "uri": "entities/0006uKI/attributes/Department/1qKvLW/HOD/1qL3s2"
+                }
+              ],
+              "FacultyNumber": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/FacultyNumber",
+                  "ov": true,
+                  "value": "50",
+                  "uri": "entities/0006uKI/attributes/Department/1qKvLW/FacultyNumber/1qL88I"
+                }
+              ],
+              "StudentNumber": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/StudentNumber",
+                  "ov": true,
+                  "value": "1200",
+                  "uri": "entities/0006uKI/attributes/Department/1qKvLW/StudentNumber/1qLCOY"
+                }
+              ]
+            },
+            "ov": true,
+            "uri": "entities/0006uKI/attributes/Department/1qKvLW"
+          },
+          {
+            "label": "",
+            "value": {
+              "DepartmentName": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/DepartmentName",
+                  "ov": true,
+                  "value": "Science",
+                  "uri": "entities/0006uKI/attributes/Department/1qLGeo/DepartmentName/1qLKv4"
+                }
+              ],
+              "HOD": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/HOD",
+                  "ov": true,
+                  "value": "Souradip Das",
+                  "uri": "entities/0006uKI/attributes/Department/1qLGeo/HOD/1qLPBK"
+                }
+              ],
+              "FacultyNumber": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/FacultyNumber",
+                  "ov": true,
+                  "value": "30",
+                  "uri": "entities/0006uKI/attributes/Department/1qLGeo/FacultyNumber/1qLTRa"
+                }
+              ],
+              "StudentNumber": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/StudentNumber",
+                  "ov": true,
+                  "value": "900",
+                  "uri": "entities/0006uKI/attributes/Department/1qLGeo/StudentNumber/1qLXhq"
+                }
+              ]
+            },
+            "ov": true,
+            "uri": "entities/0006uKI/attributes/Department/1qLGeo"
+          },
+          {
+            "label": "",
+            "value": {
+              "DepartmentName": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/DepartmentName",
+                  "ov": true,
+                  "value": "Commerce",
+                  "uri": "entities/0006uKI/attributes/Department/1qLby6/DepartmentName/1qLgEM"
+                }
+              ],
+              "HOD": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/HOD",
+                  "ov": true,
+                  "value": "Mitali Das",
+                  "uri": "entities/0006uKI/attributes/Department/1qLby6/HOD/1qLkUc"
+                }
+              ],
+              "FacultyNumber": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/FacultyNumber",
+                  "ov": true,
+                  "value": "60",
+                  "uri": "entities/0006uKI/attributes/Department/1qLby6/FacultyNumber/1qLoks"
+                }
+              ],
+              "StudentNumber": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/StudentNumber",
+                  "ov": true,
+                  "value": "2500",
+                  "uri": "entities/0006uKI/attributes/Department/1qLby6/StudentNumber/1qLt18"
+                }
+              ]
+            },
+            "ov": true,
+            "uri": "entities/0006uKI/attributes/Department/1qLby6"
+          }
+        ]
+      },
+      "isFavorite": false,
+      "crosswalks": [
+        {
+          "uri": "entities/0006uKI/crosswalks/1qRNzm",
+          "type": "configuration/sources/Reltio",
+          "value": "0006uKI",
+          "reltioLoadDate": "2016-03-14T11:46:53.653Z",
+          "createDate": "2016-03-14T11:46:53.653Z",
+          "updateDate": "2016-03-14T11:46:53.653Z",
+          "attributes": [
+            "entities/0006uKI/attributes/Department/1qKvLW/DepartmentName/1qKzbm",
+            "entities/0006uKI/attributes/Department/1qLGeo/HOD/1qLPBK",
+            "entities/0006uKI/attributes/universutyName/1qKr5G",
+            "entities/0006uKI/attributes/Department/1qKvLW",
+            "entities/0006uKI/attributes/Department/1qLby6/FacultyNumber/1qLoks",
+            "entities/0006uKI/attributes/Department/1qLGeo/StudentNumber/1qLXhq",
+            "entities/0006uKI/attributes/Department/1qLby6/HOD/1qLkUc",
+            "entities/0006uKI/attributes/Department/1qKvLW/StudentNumber/1qLCOY",
+            "entities/0006uKI/attributes/Department/1qKvLW/FacultyNumber/1qL88I",
+            "entities/0006uKI/attributes/Department/1qLby6",
+            "entities/0006uKI/attributes/Department/1qLGeo/DepartmentName/1qLKv4",
+            "entities/0006uKI/attributes/Department/1qLby6/DepartmentName/1qLgEM",
+            "entities/0006uKI/attributes/Department/1qLGeo/FacultyNumber/1qLTRa",
+            "entities/0006uKI/attributes/Department/1qLGeo",
+            "entities/0006uKI/attributes/Department/1qLby6/StudentNumber/1qLt18",
+            "entities/0006uKI/attributes/Department/1qKvLW/HOD/1qL3s2"
+          ],
+          "singleAttributeUpdateDates": {}
+        }
+      ],
+      "label": "University of Burdwan",
+      "secondaryLabel": ""
+    },
+    "successful": true
+  },
+  {
+    "index": 3,
+    "object": {
+      "uri": "entities/0006yaY",
+      "type": "configuration/entityTypes/UNIVERSITY",
+      "createdBy": "rudradip.misra",
+      "createdTime": 1457956013653,
+      "updatedBy": "rudradip.misra",
+      "updatedTime": 1457956013653,
+      "attributes": {
+        "universutyName": [
+          {
+            "type": "configuration/entityTypes/UNIVERSITY/attributes/universutyName",
+            "ov": true,
+            "value": "University of Kalyani",
+            "uri": "entities/0006yaY/attributes/universutyName/1qLxHO"
+          }
+        ],
+        "Department": [
+          {
+            "label": "",
+            "value": {
+              "DepartmentName": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/DepartmentName",
+                  "ov": true,
+                  "value": "Science",
+                  "uri": "entities/0006yaY/attributes/Department/1qM1Xe/DepartmentName/1qM5nu"
+                }
+              ],
+              "HOD": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/HOD",
+                  "ov": true,
+                  "value": "Atreyee Das",
+                  "uri": "entities/0006yaY/attributes/Department/1qM1Xe/HOD/1qMA4A"
+                }
+              ],
+              "FacultyNumber": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/FacultyNumber",
+                  "ov": true,
+                  "value": "32",
+                  "uri": "entities/0006yaY/attributes/Department/1qM1Xe/FacultyNumber/1qMEKQ"
+                }
+              ],
+              "StudentNumber": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/StudentNumber",
+                  "ov": true,
+                  "value": "840",
+                  "uri": "entities/0006yaY/attributes/Department/1qM1Xe/StudentNumber/1qMIag"
+                }
+              ]
+            },
+            "ov": true,
+            "uri": "entities/0006yaY/attributes/Department/1qM1Xe"
+          }
+        ]
+      },
+      "isFavorite": false,
+      "crosswalks": [
+        {
+          "uri": "entities/0006yaY/crosswalks/1qRSG2",
+          "type": "configuration/sources/Reltio",
+          "value": "0006yaY",
+          "reltioLoadDate": "2016-03-14T11:46:53.653Z",
+          "createDate": "2016-03-14T11:46:53.653Z",
+          "updateDate": "2016-03-14T11:46:53.653Z",
+          "attributes": [
+            "entities/0006yaY/attributes/Department/1qM1Xe/DepartmentName/1qM5nu",
+            "entities/0006yaY/attributes/universutyName/1qLxHO",
+            "entities/0006yaY/attributes/Department/1qM1Xe/FacultyNumber/1qMEKQ",
+            "entities/0006yaY/attributes/Department/1qM1Xe/HOD/1qMA4A",
+            "entities/0006yaY/attributes/Department/1qM1Xe/StudentNumber/1qMIag",
+            "entities/0006yaY/attributes/Department/1qM1Xe"
+          ],
+          "singleAttributeUpdateDates": {}
+        }
+      ],
+      "label": "University of Kalyani",
+      "secondaryLabel": ""
+    },
+    "successful": true
+  },
+  {
+    "index": 4,
+    "object": {
+      "uri": "entities/00072qo",
+      "type": "configuration/entityTypes/UNIVERSITY",
+      "createdBy": "rudradip.misra",
+      "createdTime": 1457956013653,
+      "updatedBy": "rudradip.misra",
+      "updatedTime": 1457956013653,
+      "attributes": {
+        "universutyName": [
+          {
+            "type": "configuration/entityTypes/UNIVERSITY/attributes/universutyName",
+            "ov": true,
+            "value": "Visva-Bharati University",
+            "uri": "entities/00072qo/attributes/universutyName/1qMMqw"
+          }
+        ],
+        "Department": [
+          {
+            "label": "",
+            "value": {
+              "DepartmentName": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/DepartmentName",
+                  "ov": true,
+                  "value": "Science",
+                  "uri": "entities/00072qo/attributes/Department/1qMR7C/DepartmentName/1qMVNS"
+                }
+              ],
+              "HOD": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/HOD",
+                  "ov": true,
+                  "value": "Alok Nath",
+                  "uri": "entities/00072qo/attributes/Department/1qMR7C/HOD/1qMZdi"
+                }
+              ],
+              "FacultyNumber": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/FacultyNumber",
+                  "ov": true,
+                  "value": "30",
+                  "uri": "entities/00072qo/attributes/Department/1qMR7C/FacultyNumber/1qMdty"
+                }
+              ],
+              "StudentNumber": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/StudentNumber",
+                  "ov": true,
+                  "value": "900",
+                  "uri": "entities/00072qo/attributes/Department/1qMR7C/StudentNumber/1qMiAE"
+                }
+              ]
+            },
+            "ov": true,
+            "uri": "entities/00072qo/attributes/Department/1qMR7C"
+          }
+        ]
+      },
+      "isFavorite": false,
+      "crosswalks": [
+        {
+          "uri": "entities/00072qo/crosswalks/1qRWWI",
+          "type": "configuration/sources/Reltio",
+          "value": "00072qo",
+          "reltioLoadDate": "2016-03-14T11:46:53.653Z",
+          "createDate": "2016-03-14T11:46:53.653Z",
+          "updateDate": "2016-03-14T11:46:53.653Z",
+          "attributes": [
+            "entities/00072qo/attributes/Department/1qMR7C",
+            "entities/00072qo/attributes/universutyName/1qMMqw",
+            "entities/00072qo/attributes/Department/1qMR7C/FacultyNumber/1qMdty",
+            "entities/00072qo/attributes/Department/1qMR7C/HOD/1qMZdi",
+            "entities/00072qo/attributes/Department/1qMR7C/StudentNumber/1qMiAE",
+            "entities/00072qo/attributes/Department/1qMR7C/DepartmentName/1qMVNS"
+          ],
+          "singleAttributeUpdateDates": {}
+        }
+      ],
+      "label": "Visva-Bharati University",
+      "secondaryLabel": ""
+    },
+    "successful": true
+  },
+  {
+    "index": 5,
+    "object": {
+      "uri": "entities/0007774",
+      "type": "configuration/entityTypes/UNIVERSITY",
+      "createdBy": "rudradip.misra",
+      "createdTime": 1457956013653,
+      "updatedBy": "rudradip.misra",
+      "updatedTime": 1457956013653,
+      "attributes": {
+        "universutyName": [
+          {
+            "type": "configuration/entityTypes/UNIVERSITY/attributes/universutyName",
+            "ov": true,
+            "value": "Presidency University",
+            "uri": "entities/0007774/attributes/universutyName/1qMmQU"
+          }
+        ],
+        "Department": [
+          {
+            "label": "",
+            "value": {
+              "DepartmentName": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/DepartmentName",
+                  "ov": true,
+                  "value": "Arts",
+                  "uri": "entities/0007774/attributes/Department/1qMqgk/DepartmentName/1qMux0"
+                }
+              ],
+              "HOD": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/HOD",
+                  "ov": true,
+                  "value": "Iman Sinha",
+                  "uri": "entities/0007774/attributes/Department/1qMqgk/HOD/1qMzDG"
+                }
+              ],
+              "FacultyNumber": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/FacultyNumber",
+                  "ov": true,
+                  "value": "30",
+                  "uri": "entities/0007774/attributes/Department/1qMqgk/FacultyNumber/1qN3TW"
+                }
+              ],
+              "StudentNumber": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/StudentNumber",
+                  "ov": true,
+                  "value": "900",
+                  "uri": "entities/0007774/attributes/Department/1qMqgk/StudentNumber/1qN7jm"
+                }
+              ]
+            },
+            "ov": true,
+            "uri": "entities/0007774/attributes/Department/1qMqgk"
+          }
+        ]
+      },
+      "isFavorite": false,
+      "crosswalks": [
+        {
+          "uri": "entities/0007774/crosswalks/1qRamY",
+          "type": "configuration/sources/Reltio",
+          "value": "0007774",
+          "reltioLoadDate": "2016-03-14T11:46:53.653Z",
+          "createDate": "2016-03-14T11:46:53.653Z",
+          "updateDate": "2016-03-14T11:46:53.653Z",
+          "attributes": [
+            "entities/0007774/attributes/Department/1qMqgk",
+            "entities/0007774/attributes/Department/1qMqgk/DepartmentName/1qMux0",
+            "entities/0007774/attributes/Department/1qMqgk/HOD/1qMzDG",
+            "entities/0007774/attributes/Department/1qMqgk/StudentNumber/1qN7jm",
+            "entities/0007774/attributes/universutyName/1qMmQU",
+            "entities/0007774/attributes/Department/1qMqgk/FacultyNumber/1qN3TW"
+          ],
+          "singleAttributeUpdateDates": {}
+        }
+      ],
+      "label": "Presidency University",
+      "secondaryLabel": ""
+    },
+    "successful": true
+  },
+  {
+    "index": 6,
+    "object": {
+      "uri": "entities/0007BNK",
+      "type": "configuration/entityTypes/UNIVERSITY",
+      "createdBy": "rudradip.misra",
+      "createdTime": 1457956013653,
+      "updatedBy": "rudradip.misra",
+      "updatedTime": 1457956013653,
+      "attributes": {
+        "universutyName": [
+          {
+            "type": "configuration/entityTypes/UNIVERSITY/attributes/universutyName",
+            "ov": true,
+            "value": "University of Mumbai",
+            "uri": "entities/0007BNK/attributes/universutyName/1qNC02"
+          }
+        ],
+        "Department": [
+          {
+            "label": "",
+            "value": {
+              "DepartmentName": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/DepartmentName",
+                  "ov": true,
+                  "value": "Arts",
+                  "uri": "entities/0007BNK/attributes/Department/1qNGGI/DepartmentName/1qNKWY"
+                }
+              ],
+              "HOD": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/HOD",
+                  "ov": true,
+                  "value": "Sandip Mehta",
+                  "uri": "entities/0007BNK/attributes/Department/1qNGGI/HOD/1qNOmo"
+                }
+              ],
+              "FacultyNumber": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/FacultyNumber",
+                  "ov": true,
+                  "value": "150",
+                  "uri": "entities/0007BNK/attributes/Department/1qNGGI/FacultyNumber/1qNT34"
+                }
+              ],
+              "StudentNumber": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/StudentNumber",
+                  "ov": true,
+                  "value": "3000",
+                  "uri": "entities/0007BNK/attributes/Department/1qNGGI/StudentNumber/1qNXJK"
+                }
+              ]
+            },
+            "ov": true,
+            "uri": "entities/0007BNK/attributes/Department/1qNGGI"
+          },
+          {
+            "label": "",
+            "value": {
+              "DepartmentName": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/DepartmentName",
+                  "ov": true,
+                  "value": "Science",
+                  "uri": "entities/0007BNK/attributes/Department/1qNbZa/DepartmentName/1qNfpq"
+                }
+              ],
+              "HOD": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/HOD",
+                  "ov": true,
+                  "value": "Amit Dave",
+                  "uri": "entities/0007BNK/attributes/Department/1qNbZa/HOD/1qNk66"
+                }
+              ],
+              "FacultyNumber": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/FacultyNumber",
+                  "ov": true,
+                  "value": "30",
+                  "uri": "entities/0007BNK/attributes/Department/1qNbZa/FacultyNumber/1qNoMM"
+                }
+              ],
+              "StudentNumber": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/StudentNumber",
+                  "ov": true,
+                  "value": "900",
+                  "uri": "entities/0007BNK/attributes/Department/1qNbZa/StudentNumber/1qNscc"
+                }
+              ]
+            },
+            "ov": true,
+            "uri": "entities/0007BNK/attributes/Department/1qNbZa"
+          },
+          {
+            "label": "",
+            "value": {
+              "DepartmentName": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/DepartmentName",
+                  "ov": true,
+                  "value": "Commerce",
+                  "uri": "entities/0007BNK/attributes/Department/1qNwss/DepartmentName/1qO198"
+                }
+              ],
+              "HOD": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/HOD",
+                  "ov": true,
+                  "value": "Ajay Sinha",
+                  "uri": "entities/0007BNK/attributes/Department/1qNwss/HOD/1qO5PO"
+                }
+              ],
+              "FacultyNumber": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/FacultyNumber",
+                  "ov": true,
+                  "value": "200",
+                  "uri": "entities/0007BNK/attributes/Department/1qNwss/FacultyNumber/1qO9fe"
+                }
+              ],
+              "StudentNumber": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/StudentNumber",
+                  "ov": true,
+                  "value": "4500",
+                  "uri": "entities/0007BNK/attributes/Department/1qNwss/StudentNumber/1qODvu"
+                }
+              ]
+            },
+            "ov": true,
+            "uri": "entities/0007BNK/attributes/Department/1qNwss"
+          }
+        ]
+      },
+      "isFavorite": false,
+      "crosswalks": [
+        {
+          "uri": "entities/0007BNK/crosswalks/1qRf2o",
+          "type": "configuration/sources/Reltio",
+          "value": "0007BNK",
+          "reltioLoadDate": "2016-03-14T11:46:53.653Z",
+          "createDate": "2016-03-14T11:46:53.653Z",
+          "updateDate": "2016-03-14T11:46:53.653Z",
+          "attributes": [
+            "entities/0007BNK/attributes/Department/1qNGGI",
+            "entities/0007BNK/attributes/Department/1qNbZa/StudentNumber/1qNscc",
+            "entities/0007BNK/attributes/Department/1qNwss",
+            "entities/0007BNK/attributes/Department/1qNbZa/HOD/1qNk66",
+            "entities/0007BNK/attributes/Department/1qNwss/FacultyNumber/1qO9fe",
+            "entities/0007BNK/attributes/Department/1qNGGI/FacultyNumber/1qNT34",
+            "entities/0007BNK/attributes/Department/1qNwss/HOD/1qO5PO",
+            "entities/0007BNK/attributes/universutyName/1qNC02",
+            "entities/0007BNK/attributes/Department/1qNbZa/DepartmentName/1qNfpq",
+            "entities/0007BNK/attributes/Department/1qNwss/StudentNumber/1qODvu",
+            "entities/0007BNK/attributes/Department/1qNbZa",
+            "entities/0007BNK/attributes/Department/1qNGGI/DepartmentName/1qNKWY",
+            "entities/0007BNK/attributes/Department/1qNbZa/FacultyNumber/1qNoMM",
+            "entities/0007BNK/attributes/Department/1qNGGI/HOD/1qNOmo",
+            "entities/0007BNK/attributes/Department/1qNGGI/StudentNumber/1qNXJK",
+            "entities/0007BNK/attributes/Department/1qNwss/DepartmentName/1qO198"
+          ],
+          "singleAttributeUpdateDates": {}
+        }
+      ],
+      "label": "University of Mumbai",
+      "secondaryLabel": ""
+    },
+    "successful": true
+  },
+  {
+    "index": 7,
+    "object": {
+      "uri": "entities/0007Fda",
+      "type": "configuration/entityTypes/UNIVERSITY",
+      "createdBy": "rudradip.misra",
+      "createdTime": 1457956013653,
+      "updatedBy": "rudradip.misra",
+      "updatedTime": 1457956013653,
+      "attributes": {
+        "universutyName": [
+          {
+            "type": "configuration/entityTypes/UNIVERSITY/attributes/universutyName",
+            "ov": true,
+            "value": "University of Delhi",
+            "uri": "entities/0007Fda/attributes/universutyName/1qOICA"
+          }
+        ],
+        "Department": [
+          {
+            "label": "",
+            "value": {
+              "DepartmentName": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/DepartmentName",
+                  "ov": true,
+                  "value": "Arts",
+                  "uri": "entities/0007Fda/attributes/Department/1qOMSQ/DepartmentName/1qOQig"
+                }
+              ],
+              "HOD": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/HOD",
+                  "ov": true,
+                  "value": "Arpita Halder",
+                  "uri": "entities/0007Fda/attributes/Department/1qOMSQ/HOD/1qOUyw"
+                }
+              ],
+              "FacultyNumber": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/FacultyNumber",
+                  "ov": true,
+                  "value": "50",
+                  "uri": "entities/0007Fda/attributes/Department/1qOMSQ/FacultyNumber/1qOZFC"
+                }
+              ],
+              "StudentNumber": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/StudentNumber",
+                  "ov": true,
+                  "value": "1200",
+                  "uri": "entities/0007Fda/attributes/Department/1qOMSQ/StudentNumber/1qOdVS"
+                }
+              ]
+            },
+            "ov": true,
+            "uri": "entities/0007Fda/attributes/Department/1qOMSQ"
+          },
+          {
+            "label": "",
+            "value": {
+              "DepartmentName": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/DepartmentName",
+                  "ov": true,
+                  "value": "Science",
+                  "uri": "entities/0007Fda/attributes/Department/1qOhli/DepartmentName/1qOm1y"
+                }
+              ],
+              "HOD": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/HOD",
+                  "ov": true,
+                  "value": "Rahul Malhotra",
+                  "uri": "entities/0007Fda/attributes/Department/1qOhli/HOD/1qOqIE"
+                }
+              ],
+              "FacultyNumber": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/FacultyNumber",
+                  "ov": true,
+                  "value": "30",
+                  "uri": "entities/0007Fda/attributes/Department/1qOhli/FacultyNumber/1qOuYU"
+                }
+              ],
+              "StudentNumber": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/StudentNumber",
+                  "ov": true,
+                  "value": "900",
+                  "uri": "entities/0007Fda/attributes/Department/1qOhli/StudentNumber/1qOyok"
+                }
+              ]
+            },
+            "ov": true,
+            "uri": "entities/0007Fda/attributes/Department/1qOhli"
+          },
+          {
+            "label": "",
+            "value": {
+              "DepartmentName": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/DepartmentName",
+                  "ov": true,
+                  "value": "Commerce",
+                  "uri": "entities/0007Fda/attributes/Department/1qP350/DepartmentName/1qP7LG"
+                }
+              ],
+              "HOD": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/HOD",
+                  "ov": true,
+                  "value": "Saroj Singh",
+                  "uri": "entities/0007Fda/attributes/Department/1qP350/HOD/1qPBbW"
+                }
+              ],
+              "FacultyNumber": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/FacultyNumber",
+                  "ov": true,
+                  "value": "60",
+                  "uri": "entities/0007Fda/attributes/Department/1qP350/FacultyNumber/1qPFrm"
+                }
+              ],
+              "StudentNumber": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/StudentNumber",
+                  "ov": true,
+                  "value": "2500",
+                  "uri": "entities/0007Fda/attributes/Department/1qP350/StudentNumber/1qPK82"
+                }
+              ]
+            },
+            "ov": true,
+            "uri": "entities/0007Fda/attributes/Department/1qP350"
+          }
+        ]
+      },
+      "isFavorite": false,
+      "crosswalks": [
+        {
+          "uri": "entities/0007Fda/crosswalks/1qRjJ4",
+          "type": "configuration/sources/Reltio",
+          "value": "0007Fda",
+          "reltioLoadDate": "2016-03-14T11:46:53.653Z",
+          "createDate": "2016-03-14T11:46:53.653Z",
+          "updateDate": "2016-03-14T11:46:53.653Z",
+          "attributes": [
+            "entities/0007Fda/attributes/Department/1qOMSQ/FacultyNumber/1qOZFC",
+            "entities/0007Fda/attributes/Department/1qP350/DepartmentName/1qP7LG",
+            "entities/0007Fda/attributes/universutyName/1qOICA",
+            "entities/0007Fda/attributes/Department/1qP350/StudentNumber/1qPK82",
+            "entities/0007Fda/attributes/Department/1qP350",
+            "entities/0007Fda/attributes/Department/1qP350/HOD/1qPBbW",
+            "entities/0007Fda/attributes/Department/1qOhli/StudentNumber/1qOyok",
+            "entities/0007Fda/attributes/Department/1qOhli/HOD/1qOqIE",
+            "entities/0007Fda/attributes/Department/1qP350/FacultyNumber/1qPFrm",
+            "entities/0007Fda/attributes/Department/1qOMSQ/DepartmentName/1qOQig",
+            "entities/0007Fda/attributes/Department/1qOhli/DepartmentName/1qOm1y",
+            "entities/0007Fda/attributes/Department/1qOMSQ/StudentNumber/1qOdVS",
+            "entities/0007Fda/attributes/Department/1qOhli",
+            "entities/0007Fda/attributes/Department/1qOhli/FacultyNumber/1qOuYU",
+            "entities/0007Fda/attributes/Department/1qOMSQ/HOD/1qOUyw",
+            "entities/0007Fda/attributes/Department/1qOMSQ"
+          ],
+          "singleAttributeUpdateDates": {}
+        }
+      ],
+      "label": "University of Delhi",
+      "secondaryLabel": ""
+    },
+    "successful": true
+  },
+  {
+    "index": 8,
+    "object": {
+      "uri": "entities/0007Jtq",
+      "type": "configuration/entityTypes/UNIVERSITY",
+      "createdBy": "rudradip.misra",
+      "createdTime": 1457956013653,
+      "updatedBy": "rudradip.misra",
+      "updatedTime": 1457956013653,
+      "attributes": {
+        "universutyName": [
+          {
+            "type": "configuration/entityTypes/UNIVERSITY/attributes/universutyName",
+            "ov": true,
+            "value": "University of Pune",
+            "uri": "entities/0007Jtq/attributes/universutyName/1qPOOI"
+          }
+        ],
+        "Department": [
+          {
+            "label": "",
+            "value": {
+              "DepartmentName": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/DepartmentName",
+                  "ov": true,
+                  "value": "Science",
+                  "uri": "entities/0007Jtq/attributes/Department/1qPSeY/DepartmentName/1qPWuo"
+                }
+              ],
+              "HOD": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/HOD",
+                  "ov": true,
+                  "value": "Swati Kulkarni",
+                  "uri": "entities/0007Jtq/attributes/Department/1qPSeY/HOD/1qPbB4"
+                }
+              ],
+              "FacultyNumber": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/FacultyNumber",
+                  "ov": true,
+                  "value": "30",
+                  "uri": "entities/0007Jtq/attributes/Department/1qPSeY/FacultyNumber/1qPfRK"
+                }
+              ],
+              "StudentNumber": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/StudentNumber",
+                  "ov": true,
+                  "value": "900",
+                  "uri": "entities/0007Jtq/attributes/Department/1qPSeY/StudentNumber/1qPjha"
+                }
+              ]
+            },
+            "ov": true,
+            "uri": "entities/0007Jtq/attributes/Department/1qPSeY"
+          }
+        ]
+      },
+      "isFavorite": false,
+      "crosswalks": [
+        {
+          "uri": "entities/0007Jtq/crosswalks/1qRnZK",
+          "type": "configuration/sources/Reltio",
+          "value": "0007Jtq",
+          "reltioLoadDate": "2016-03-14T11:46:53.653Z",
+          "createDate": "2016-03-14T11:46:53.653Z",
+          "updateDate": "2016-03-14T11:46:53.653Z",
+          "attributes": [
+            "entities/0007Jtq/attributes/Department/1qPSeY/StudentNumber/1qPjha",
+            "entities/0007Jtq/attributes/Department/1qPSeY/FacultyNumber/1qPfRK",
+            "entities/0007Jtq/attributes/Department/1qPSeY/DepartmentName/1qPWuo",
+            "entities/0007Jtq/attributes/Department/1qPSeY",
+            "entities/0007Jtq/attributes/Department/1qPSeY/HOD/1qPbB4",
+            "entities/0007Jtq/attributes/universutyName/1qPOOI"
+          ],
+          "singleAttributeUpdateDates": {}
+        }
+      ],
+      "label": "University of Pune",
+      "secondaryLabel": ""
+    },
+    "successful": true
+  },
+  {
+    "index": 9,
+    "object": {
+      "uri": "entities/0007OA6",
+      "type": "configuration/entityTypes/UNIVERSITY",
+      "createdBy": "rudradip.misra",
+      "createdTime": 1457956013653,
+      "updatedBy": "rudradip.misra",
+      "updatedTime": 1457956013653,
+      "attributes": {
+        "universutyName": [
+          {
+            "type": "configuration/entityTypes/UNIVERSITY/attributes/universutyName",
+            "ov": true,
+            "value": "West Bengal State University",
+            "uri": "entities/0007OA6/attributes/universutyName/1qPnxq"
+          }
+        ],
+        "Department": [
+          {
+            "label": "",
+            "value": {
+              "DepartmentName": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/DepartmentName",
+                  "ov": true,
+                  "value": "Arts",
+                  "uri": "entities/0007OA6/attributes/Department/1qPsE6/DepartmentName/1qPwUM"
+                }
+              ],
+              "HOD": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/HOD",
+                  "ov": true,
+                  "value": "Eshita Saha",
+                  "uri": "entities/0007OA6/attributes/Department/1qPsE6/HOD/1qQ0kc"
+                }
+              ],
+              "FacultyNumber": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/FacultyNumber",
+                  "ov": true,
+                  "value": "50",
+                  "uri": "entities/0007OA6/attributes/Department/1qPsE6/FacultyNumber/1qQ50s"
+                }
+              ],
+              "StudentNumber": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/StudentNumber",
+                  "ov": true,
+                  "value": "1200",
+                  "uri": "entities/0007OA6/attributes/Department/1qPsE6/StudentNumber/1qQ9H8"
+                }
+              ]
+            },
+            "ov": true,
+            "uri": "entities/0007OA6/attributes/Department/1qPsE6"
+          },
+          {
+            "label": "",
+            "value": {
+              "DepartmentName": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/DepartmentName",
+                  "ov": true,
+                  "value": "Science",
+                  "uri": "entities/0007OA6/attributes/Department/1qQDXO/DepartmentName/1qQHne"
+                }
+              ],
+              "HOD": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/HOD",
+                  "ov": true,
+                  "value": "Aniruddha Mukherjee",
+                  "uri": "entities/0007OA6/attributes/Department/1qQDXO/HOD/1qQM3u"
+                }
+              ],
+              "FacultyNumber": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/FacultyNumber",
+                  "ov": true,
+                  "value": "30",
+                  "uri": "entities/0007OA6/attributes/Department/1qQDXO/FacultyNumber/1qQQKA"
+                }
+              ],
+              "StudentNumber": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/StudentNumber",
+                  "ov": true,
+                  "value": "900",
+                  "uri": "entities/0007OA6/attributes/Department/1qQDXO/StudentNumber/1qQUaQ"
+                }
+              ]
+            },
+            "ov": true,
+            "uri": "entities/0007OA6/attributes/Department/1qQDXO"
+          },
+          {
+            "label": "",
+            "value": {
+              "DepartmentName": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/DepartmentName",
+                  "ov": true,
+                  "value": "Commerce",
+                  "uri": "entities/0007OA6/attributes/Department/1qQYqg/DepartmentName/1qQd6w"
+                }
+              ],
+              "HOD": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/HOD",
+                  "ov": true,
+                  "value": "Joyita Pal",
+                  "uri": "entities/0007OA6/attributes/Department/1qQYqg/HOD/1qQhNC"
+                }
+              ],
+              "FacultyNumber": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/FacultyNumber",
+                  "ov": true,
+                  "value": "60",
+                  "uri": "entities/0007OA6/attributes/Department/1qQYqg/FacultyNumber/1qQldS"
+                }
+              ],
+              "StudentNumber": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/StudentNumber",
+                  "ov": true,
+                  "value": "2500",
+                  "uri": "entities/0007OA6/attributes/Department/1qQYqg/StudentNumber/1qQpti"
+                }
+              ]
+            },
+            "ov": true,
+            "uri": "entities/0007OA6/attributes/Department/1qQYqg"
+          },
+          {
+            "label": "",
+            "value": {
+              "DepartmentName": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/DepartmentName",
+                  "ov": true,
+                  "value": "Engineering",
+                  "uri": "entities/0007OA6/attributes/Department/1qQu9y/DepartmentName/1qQyQE"
+                }
+              ],
+              "HOD": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/HOD",
+                  "ov": true,
+                  "value": "Sudev Maity",
+                  "uri": "entities/0007OA6/attributes/Department/1qQu9y/HOD/1qR2gU"
+                }
+              ],
+              "FacultyNumber": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/FacultyNumber",
+                  "ov": true,
+                  "value": "30",
+                  "uri": "entities/0007OA6/attributes/Department/1qQu9y/FacultyNumber/1qR6wk"
+                }
+              ],
+              "StudentNumber": [
+                {
+                  "type": "configuration/entityTypes/UNIVERSITY/attributes/Department/attributes/StudentNumber",
+                  "ov": true,
+                  "value": "1000",
+                  "uri": "entities/0007OA6/attributes/Department/1qQu9y/StudentNumber/1qRBD0"
+                }
+              ]
+            },
+            "ov": true,
+            "uri": "entities/0007OA6/attributes/Department/1qQu9y"
+          }
+        ]
+      },
+      "isFavorite": false,
+      "crosswalks": [
+        {
+          "uri": "entities/0007OA6/crosswalks/1qRrpa",
+          "type": "configuration/sources/Reltio",
+          "value": "0007OA6",
+          "reltioLoadDate": "2016-03-14T11:46:53.653Z",
+          "createDate": "2016-03-14T11:46:53.653Z",
+          "updateDate": "2016-03-14T11:46:53.653Z",
+          "attributes": [
+            "entities/0007OA6/attributes/universutyName/1qPnxq",
+            "entities/0007OA6/attributes/Department/1qPsE6/HOD/1qQ0kc",
+            "entities/0007OA6/attributes/Department/1qQu9y/StudentNumber/1qRBD0",
+            "entities/0007OA6/attributes/Department/1qPsE6/DepartmentName/1qPwUM",
+            "entities/0007OA6/attributes/Department/1qQu9y/FacultyNumber/1qR6wk",
+            "entities/0007OA6/attributes/Department/1qQu9y/HOD/1qR2gU",
+            "entities/0007OA6/attributes/Department/1qPsE6/FacultyNumber/1qQ50s",
+            "entities/0007OA6/attributes/Department/1qQDXO/HOD/1qQM3u",
+            "entities/0007OA6/attributes/Department/1qQu9y/DepartmentName/1qQyQE",
+            "entities/0007OA6/attributes/Department/1qQYqg/FacultyNumber/1qQldS",
+            "entities/0007OA6/attributes/Department/1qQYqg",
+            "entities/0007OA6/attributes/Department/1qQu9y",
+            "entities/0007OA6/attributes/Department/1qPsE6/StudentNumber/1qQ9H8",
+            "entities/0007OA6/attributes/Department/1qQDXO/DepartmentName/1qQHne",
+            "entities/0007OA6/attributes/Department/1qQDXO",
+            "entities/0007OA6/attributes/Department/1qQYqg/HOD/1qQhNC",
+            "entities/0007OA6/attributes/Department/1qQYqg/DepartmentName/1qQd6w",
+            "entities/0007OA6/attributes/Department/1qQYqg/StudentNumber/1qQpti",
+            "entities/0007OA6/attributes/Department/1qQDXO/StudentNumber/1qQUaQ",
+            "entities/0007OA6/attributes/Department/1qPsE6",
+            "entities/0007OA6/attributes/Department/1qQDXO/FacultyNumber/1qQQKA"
+          ],
+          "singleAttributeUpdateDates": {}
+        }
+      ],
+      "label": "West Bengal State University",
+      "secondaryLabel": ""
+    },
+    "successful": true
+  }
+]
