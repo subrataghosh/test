@@ -11,3 +11,9 @@ Issues
 8.  What is the difference between NativeAttributes and EC Attributes? Should those be placed together under Attributes while creating the configuration? Currently, they are both being placed in attributes.
 9.  What will be the name of the parent native attribute?
 10. Should we include records that are striked through in the excel sheet?
+
+-------------------------------------------------------------------------------------------------
+Issues 20160411
+-------------------------------------------------------------------------------------------------
+1. Values for "label", "description", "typeColor", "implicit" and "direction" in relationTypes not known.
+2. Logic for populating "directionalContext" in relationTypes not known.
