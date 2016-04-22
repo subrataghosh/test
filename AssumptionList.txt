@@ -1,0 +1,38 @@
+Assumption List
+---------------
+1. All CDM sheets should be kept in a single folder named "CDM_Source"
+2. There must not be any other file in "CDM_Source" apart from CDM spreadsheets
+3. The extension of the CDM sheets should be .xlsx or .xls
+4. Each CDM sheet should contain the following tabs and corresponding headers:
+
+	"Entity Type":
+		Entity Type Name,Description,Data Label Pattern,Extends,Abstract,Color,Icon,Image,Graph Icon,Roles
+		
+	"EC Attributes":
+		Attribute Name,Uniqueness,Attribute Type,Lookup Code,Reference Type,in UI,UI Seq.,UI Label,Survivorship Rules,Survivorship Attributes,Survivor Type
+		
+	"Native Attributes":
+		Parent Attribute Name,Attribute Name,Unique,Attribute Type,in UI,UI Seq.,UI Label
+		
+	"Match Rules":
+		Rule #,Auto Merge,Match Service,Attribute,Type Of Match,Ignore,Comparator,Match Token
+		
+	"Sources":
+		Source,Source Name,General Filter Rules
+		
+	"Relationships":
+		Rel Type Name,Implicit,Rel Type Start,Start Object Rule,Rel Type End,End Object Rule,Entity From,Entity To,Rel Label,Attribute Name,Attribute Type,Lookup Code,Reference Type,in UI,UI Seq.,UI Label
+		
+5. There should not be any empty rows
+6. There should be only one Entity Type's information in the tab "Entity Type"
+7. In tab "EC Attributes", if attribut type is "Nested" or "Reference" then all its nested attributes should follow from the next line. For Example,
+	EC_Marital_Info						Nested
+	EC_Marital_Info.Status				Lookup
+	EC_Marital_Info.Anniversary_Date	Date
+8. Attribute type for any attribute should not be anything outside the following types:
+	String,Long,Integer,Number,Float,Boolean,Date,TimeStamp,Blob,URL,Enumeration,Nested,EntityTypes,RelType,Reference,Lookup
+9. Total number of attributes in "EC Attributes", "Native Attributes" and "Relationships" cannot exceede 14,999
+10. Maximum value for "UI Seq." in tabs "EC Attributes", "Native Attributes" and "Relationships" is 14,999
+11. If Attribute Type is "Lookup" then Lookup Code has to be provided
+12. If Attribute Type is "EntityTypes" or "RelType" then Reference Type has to be provided
+13. If L1 configuration changes then the program has to be rebuilt
