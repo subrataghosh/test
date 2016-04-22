@@ -17,3 +17,4 @@ Issues 20160411
 -------------------------------------------------------------------------------------------------
 1. Values for "label", "description", "typeColor", "implicit" and "direction" in relationTypes not known.
 2. Logic for populating "directionalContext" in relationTypes not known.
+3. Logic to add matchGroups.
