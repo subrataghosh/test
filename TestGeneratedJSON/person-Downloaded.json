@@ -1,0 +1,704 @@
+{
+  "uri": "configuration",
+  "description": "description",
+  "schemaVersion": "1",
+  "sources": [
+    {
+      "uri": "configuration/sources/TS",
+      "label": "Test Source",
+      "icon": "images/sources/source_s.png",
+      "abbreviation": "TS"
+    },
+    {
+      "uri": "configuration/sources/ReltioCleanser",
+      "label": "Reltio Data Cleanser",
+      "icon": "images/source/reltio.png",
+      "priority": 100500,
+      "abbreviation": "ReltioCleanser"
+    },
+    {
+      "uri": "configuration/sources/Reltio",
+      "label": "Reltio",
+      "icon": "images/source/reltio.png",
+      "priority": 0,
+      "abbreviation": "Reltio"
+    },
+    {
+      "uri": "configuration/sources/DT_HMS_new",
+      "label": "DT:HMS_new",
+      "abbreviation": "DT_HMS_new"
+    },
+    {
+      "uri": "configuration/sources/MP",
+      "label": "Member Pride",
+      "icon": "images/sources/source_s.png",
+      "abbreviation": "MP"
+    }
+  ],
+  "label": "label",
+  "abstract": false,
+  "entityTypes": [
+    {
+      "uri": "configuration/entityTypes/Person",
+      "label": "Person",
+      "description": "Person",
+      "attributes": [
+        {
+          "label": "MP",
+          "name": "MP",
+          "description": "MP",
+          "type": "Nested",
+          "hidden": false,
+          "important": false,
+          "system": false,
+          "faceted": false,
+          "searchable": false,
+          "attributeOrdering": {
+            "orderingStrategy": "LUD"
+          },
+          "uri": "configuration/entityTypes/Person/attributes/MP",
+          "singleValue": false,
+          "attributes": [
+            {
+              "label": "Person ID",
+              "name": "PERSON_ID",
+              "description": "Person ID",
+              "type": "Int",
+              "hidden": false,
+              "important": false,
+              "system": false,
+              "faceted": false,
+              "searchable": false,
+              "attributeOrdering": {
+                "orderingStrategy": "LUD"
+              },
+              "uri": "configuration/entityTypes/Person/attributes/MP/attributes/PERSON_ID",
+              "singleValue": false
+            },
+            {
+              "label": "Active Flag",
+              "name": "ACTIVE_FLAG",
+              "description": "Active Flag",
+              "type": "String",
+              "hidden": false,
+              "important": false,
+              "system": false,
+              "faceted": false,
+              "searchable": false,
+              "attributeOrdering": {
+                "orderingStrategy": "LUD"
+              },
+              "uri": "configuration/entityTypes/Person/attributes/MP/attributes/ACTIVE_FLAG",
+              "singleValue": false
+            },
+            {
+              "label": "Entity Code",
+              "name": "ENTITY_CODE",
+              "description": "Entity Code",
+              "type": "String",
+              "hidden": false,
+              "important": false,
+              "system": false,
+              "faceted": false,
+              "searchable": false,
+              "attributeOrdering": {
+                "orderingStrategy": "LUD"
+              },
+              "uri": "configuration/entityTypes/Person/attributes/MP/attributes/ENTITY_CODE",
+              "singleValue": false
+            },
+            {
+              "label": "First Name",
+              "name": "FIRST_NAME",
+              "description": "First Name",
+              "type": "String",
+              "hidden": false,
+              "important": false,
+              "system": false,
+              "faceted": false,
+              "searchable": false,
+              "attributeOrdering": {
+                "orderingStrategy": "LUD"
+              },
+              "uri": "configuration/entityTypes/Person/attributes/MP/attributes/FIRST_NAME",
+              "singleValue": false
+            },
+            {
+              "label": "Middle Name",
+              "name": "MIDDLE_NAME",
+              "description": "Middle Name",
+              "type": "String",
+              "hidden": false,
+              "important": false,
+              "system": false,
+              "faceted": false,
+              "searchable": false,
+              "attributeOrdering": {
+                "orderingStrategy": "LUD"
+              },
+              "uri": "configuration/entityTypes/Person/attributes/MP/attributes/MIDDLE_NAME",
+              "singleValue": false
+            },
+            {
+              "label": "Last Name",
+              "name": "LAST_NAME",
+              "description": "Last Name",
+              "type": "String",
+              "hidden": false,
+              "important": false,
+              "system": false,
+              "faceted": false,
+              "searchable": false,
+              "attributeOrdering": {
+                "orderingStrategy": "LUD"
+              },
+              "uri": "configuration/entityTypes/Person/attributes/MP/attributes/LAST_NAME",
+              "singleValue": false
+            },
+            {
+              "label": "Mail Merge Name",
+              "name": "MAIL_MERGE_NAME",
+              "description": "Mail Merge Name",
+              "type": "String",
+              "hidden": false,
+              "important": false,
+              "system": false,
+              "faceted": false,
+              "searchable": false,
+              "attributeOrdering": {
+                "orderingStrategy": "LUD"
+              },
+              "uri": "configuration/entityTypes/Person/attributes/MP/attributes/MAIL_MERGE_NAME",
+              "singleValue": false
+            },
+            {
+              "label": "Anniversary Date",
+              "name": "ANNIVERSARY_DATE",
+              "description": "Anniversary Date",
+              "type": "Date",
+              "hidden": false,
+              "important": false,
+              "system": false,
+              "faceted": false,
+              "searchable": false,
+              "attributeOrdering": {
+                "orderingStrategy": "LUD"
+              },
+              "uri": "configuration/entityTypes/Person/attributes/MP/attributes/ANNIVERSARY_DATE",
+              "singleValue": false
+            },
+            {
+              "label": "Birth Date",
+              "name": "BIRTH_DATE",
+              "description": "Birth Date",
+              "type": "Date",
+              "hidden": false,
+              "important": false,
+              "system": false,
+              "faceted": false,
+              "searchable": false,
+              "attributeOrdering": {
+                "orderingStrategy": "LUD"
+              },
+              "uri": "configuration/entityTypes/Person/attributes/MP/attributes/BIRTH_DATE",
+              "singleValue": false
+            },
+            {
+              "label": "Complement",
+              "name": "COMPLEMENT",
+              "description": "Complement",
+              "type": "String",
+              "hidden": false,
+              "important": false,
+              "system": false,
+              "faceted": false,
+              "searchable": false,
+              "attributeOrdering": {
+                "orderingStrategy": "LUD"
+              },
+              "uri": "configuration/entityTypes/Person/attributes/MP/attributes/COMPLEMENT",
+              "singleValue": false
+            },
+            {
+              "label": "Marital Status",
+              "name": "MARITAL_STATUS",
+              "description": "Marital Status",
+              "type": "String",
+              "hidden": false,
+              "important": false,
+              "system": false,
+              "faceted": false,
+              "searchable": false,
+              "attributeOrdering": {
+                "orderingStrategy": "LUD"
+              },
+              "uri": "configuration/entityTypes/Person/attributes/MP/attributes/MARITAL_STATUS",
+              "singleValue": false
+            },
+            {
+              "label": "Preferred Name",
+              "name": "PREFERRED_NAME",
+              "description": "Preferred Name",
+              "type": "String",
+              "hidden": false,
+              "important": false,
+              "system": false,
+              "faceted": false,
+              "searchable": false,
+              "attributeOrdering": {
+                "orderingStrategy": "LUD"
+              },
+              "uri": "configuration/entityTypes/Person/attributes/MP/attributes/PREFERRED_NAME",
+              "singleValue": false
+            },
+            {
+              "label": "Salutation",
+              "name": "SALUTATION",
+              "description": "Salutation",
+              "type": "String",
+              "hidden": false,
+              "important": false,
+              "system": false,
+              "faceted": false,
+              "searchable": false,
+              "attributeOrdering": {
+                "orderingStrategy": "LUD"
+              },
+              "uri": "configuration/entityTypes/Person/attributes/MP/attributes/SALUTATION",
+              "singleValue": false
+            },
+            {
+              "label": "Sex",
+              "name": "SEX",
+              "description": "Sex",
+              "type": "String",
+              "hidden": false,
+              "important": false,
+              "system": false,
+              "faceted": false,
+              "searchable": false,
+              "attributeOrdering": {
+                "orderingStrategy": "LUD"
+              },
+              "uri": "configuration/entityTypes/Person/attributes/MP/attributes/SEX",
+              "singleValue": false
+            },
+            {
+              "label": "Photo File Name",
+              "name": "PHOTO_FILE_NAME",
+              "description": "Photo File Name",
+              "type": "String",
+              "hidden": false,
+              "important": false,
+              "system": false,
+              "faceted": false,
+              "searchable": false,
+              "attributeOrdering": {
+                "orderingStrategy": "LUD"
+              },
+              "uri": "configuration/entityTypes/Person/attributes/MP/attributes/PHOTO_FILE_NAME",
+              "singleValue": false
+            },
+            {
+              "label": "Created By",
+              "name": "CREATED_BY",
+              "description": "Created By",
+              "type": "String",
+              "hidden": false,
+              "important": false,
+              "system": false,
+              "faceted": false,
+              "searchable": false,
+              "attributeOrdering": {
+                "orderingStrategy": "LUD"
+              },
+              "uri": "configuration/entityTypes/Person/attributes/MP/attributes/CREATED_BY",
+              "singleValue": false
+            },
+            {
+              "label": "Created On",
+              "name": "CREATED_ON",
+              "description": "Created On",
+              "type": "Date",
+              "hidden": false,
+              "important": false,
+              "system": false,
+              "faceted": false,
+              "searchable": false,
+              "attributeOrdering": {
+                "orderingStrategy": "LUD"
+              },
+              "uri": "configuration/entityTypes/Person/attributes/MP/attributes/CREATED_ON",
+              "singleValue": false
+            },
+            {
+              "label": "Last Updated By",
+              "name": "LAST_UPDATED_BY",
+              "description": "Last Updated By",
+              "type": "String",
+              "hidden": false,
+              "important": false,
+              "system": false,
+              "faceted": false,
+              "searchable": false,
+              "attributeOrdering": {
+                "orderingStrategy": "LUD"
+              },
+              "uri": "configuration/entityTypes/Person/attributes/MP/attributes/LAST_UPDATED_BY",
+              "singleValue": false
+            },
+            {
+              "label": "Last Updated On",
+              "name": "LAST_UPDATED_ON",
+              "description": "Last Updated On",
+              "type": "Date",
+              "hidden": false,
+              "important": false,
+              "system": false,
+              "faceted": false,
+              "searchable": false,
+              "attributeOrdering": {
+                "orderingStrategy": "LUD"
+              },
+              "uri": "configuration/entityTypes/Person/attributes/MP/attributes/LAST_UPDATED_ON",
+              "singleValue": false
+            },
+            {
+              "label": "Driver License Issuer ID",
+              "name": "DRIVER_LICENSE_ISSUER_ID",
+              "description": "Driver License Issuer ID",
+              "type": "Int",
+              "hidden": false,
+              "important": false,
+              "system": false,
+              "faceted": false,
+              "searchable": false,
+              "attributeOrdering": {
+                "orderingStrategy": "LUD"
+              },
+              "uri": "configuration/entityTypes/Person/attributes/MP/attributes/DRIVER_LICENSE_ISSUER_ID",
+              "singleValue": false
+            },
+            {
+              "label": "Driver License Number",
+              "name": "DRIVER_LICENSE_NUM",
+              "description": "Driver License Number",
+              "type": "String",
+              "hidden": false,
+              "important": false,
+              "system": false,
+              "faceted": false,
+              "searchable": false,
+              "attributeOrdering": {
+                "orderingStrategy": "LUD"
+              },
+              "uri": "configuration/entityTypes/Person/attributes/MP/attributes/DRIVER_LICENSE_NUM",
+              "singleValue": false
+            },
+            {
+              "label": "Passport Issuer ID",
+              "name": "PASSPORT_ISSUER_ID",
+              "description": "Passport Issuer ID",
+              "type": "Int",
+              "hidden": false,
+              "important": false,
+              "system": false,
+              "faceted": false,
+              "searchable": false,
+              "attributeOrdering": {
+                "orderingStrategy": "LUD"
+              },
+              "uri": "configuration/entityTypes/Person/attributes/MP/attributes/PASSPORT_ISSUER_ID",
+              "singleValue": false
+            },
+            {
+              "label": "Passport Number",
+              "name": "PASSPORT_NUM",
+              "description": "Passport Number",
+              "type": "String",
+              "hidden": false,
+              "important": false,
+              "system": false,
+              "faceted": false,
+              "searchable": false,
+              "attributeOrdering": {
+                "orderingStrategy": "LUD"
+              },
+              "uri": "configuration/entityTypes/Person/attributes/MP/attributes/PASSPORT_NUM",
+              "singleValue": false
+            },
+            {
+              "label": "Social Id Issuer ID",
+              "name": "SOCIAL_ID_ISSUER_ID",
+              "description": "Social Id Issuer ID",
+              "type": "Int",
+              "hidden": false,
+              "important": false,
+              "system": false,
+              "faceted": false,
+              "searchable": false,
+              "attributeOrdering": {
+                "orderingStrategy": "LUD"
+              },
+              "uri": "configuration/entityTypes/Person/attributes/MP/attributes/SOCIAL_ID_ISSUER_ID",
+              "singleValue": false
+            },
+            {
+              "label": "Social Id Number",
+              "name": "SOCIAL_ID_NUM",
+              "description": "Social Id Number",
+              "type": "String",
+              "hidden": false,
+              "important": false,
+              "system": false,
+              "faceted": false,
+              "searchable": false,
+              "attributeOrdering": {
+                "orderingStrategy": "LUD"
+              },
+              "uri": "configuration/entityTypes/Person/attributes/MP/attributes/SOCIAL_ID_NUM",
+              "singleValue": false
+            }
+          ]
+        },
+        {
+          "label": "TEST",
+          "name": "TEST",
+          "description": "TEST",
+          "type": "Nested",
+          "hidden": false,
+          "important": false,
+          "system": false,
+          "faceted": false,
+          "searchable": false,
+          "attributeOrdering": {
+            "orderingStrategy": "LUD"
+          },
+          "uri": "configuration/entityTypes/Person/attributes/TEST",
+          "singleValue": false,
+          "attributes": [
+            {
+              "label": "Test ID",
+              "name": "TEST_ID",
+              "description": "Test ID",
+              "type": "Int",
+              "hidden": false,
+              "important": false,
+              "system": false,
+              "faceted": false,
+              "searchable": false,
+              "attributeOrdering": {
+                "orderingStrategy": "LUD"
+              },
+              "uri": "configuration/entityTypes/Person/attributes/TEST/attributes/TEST_ID",
+              "singleValue": false
+            },
+            {
+              "label": "Test Name",
+              "name": "TEST_NAME",
+              "description": "Test Name",
+              "type": "String",
+              "hidden": false,
+              "important": false,
+              "system": false,
+              "faceted": false,
+              "searchable": false,
+              "attributeOrdering": {
+                "orderingStrategy": "LUD"
+              },
+              "uri": "configuration/entityTypes/Person/attributes/TEST/attributes/TEST_NAME",
+              "singleValue": false
+            }
+          ]
+        },
+        {
+          "label": "ID",
+          "name": "EC_ID",
+          "description": "ID",
+          "type": "Int",
+          "hidden": false,
+          "important": false,
+          "system": false,
+          "faceted": false,
+          "searchable": false,
+          "attributeOrdering": {
+            "orderingStrategy": "LUD"
+          },
+          "uri": "configuration/entityTypes/Person/attributes/EC_ID",
+          "singleValue": false
+        },
+        {
+          "label": "Marital Info",
+          "name": "EC_Marital_Info",
+          "description": "Marital Info",
+          "type": "Nested",
+          "hidden": false,
+          "important": false,
+          "system": false,
+          "faceted": false,
+          "searchable": false,
+          "attributeOrdering": {
+            "orderingStrategy": "LUD"
+          },
+          "uri": "configuration/entityTypes/Person/attributes/EC_Marital_Info",
+          "singleValue": false,
+          "attributes": [
+            {
+              "label": "Status",
+              "name": "Status",
+              "description": "Status",
+              "type": "String",
+              "hidden": false,
+              "important": false,
+              "system": false,
+              "faceted": false,
+              "searchable": false,
+              "attributeOrdering": {
+                "orderingStrategy": "LUD"
+              },
+              "uri": "configuration/entityTypes/Person/attributes/EC_Marital_Info/attributes/Status",
+              "lookupCode": "Maritial_Status",
+              "singleValue": false
+            },
+            {
+              "label": "Anniversary Date",
+              "name": "Anniversary_Date",
+              "description": "Anniversary Date",
+              "type": "Date",
+              "hidden": false,
+              "important": false,
+              "system": false,
+              "faceted": false,
+              "searchable": false,
+              "attributeOrdering": {
+                "orderingStrategy": "LUD"
+              },
+              "uri": "configuration/entityTypes/Person/attributes/EC_Marital_Info/attributes/Anniversary_Date",
+              "singleValue": false
+            }
+          ]
+        },
+        {
+          "label": "Non-Vegetarian",
+          "name": "Non-Vegetarian",
+          "description": "Non-Vegetarian",
+          "type": "Enum",
+          "hidden": false,
+          "important": false,
+          "system": false,
+          "faceted": false,
+          "searchable": false,
+          "values": [
+            "Y",
+            "N"
+          ],
+          "attributeOrdering": {
+            "orderingStrategy": "LUD"
+          },
+          "uri": "configuration/entityTypes/Person/attributes/Non-Vegetarian",
+          "singleValue": false
+        },
+        {
+          "label": "Driver",
+          "name": "Driver",
+          "description": "Driver",
+          "type": "EntityTypes",
+          "hidden": false,
+          "important": false,
+          "system": false,
+          "faceted": false,
+          "searchable": false,
+          "attributeOrdering": {
+            "orderingStrategy": "LUD"
+          },
+          "uri": "configuration/entityTypes/Person/attributes/Driver",
+          "singleValue": false
+        },
+        {
+          "label": "LOCATION",
+          "name": "LocationName",
+          "description": "LOCATION",
+          "type": "String",
+          "hidden": false,
+          "important": false,
+          "system": false,
+          "faceted": false,
+          "searchable": false,
+          "attributeOrdering": {
+            "orderingStrategy": "LUD"
+          },
+          "uri": "configuration/entityTypes/Person/attributes/LocationName",
+          "lookupCode": "LOCATION",
+          "singleValue": false
+        }
+      ],
+      "dataLabelPattern": "{LastName}, {FirstName}",
+      "survivorshipGroups": [
+        {
+          "uri": "configuration/entityTypes/Person/survivorshipGroups/default",
+          "default": true,
+          "mapping": [
+            {
+              "attribute": "configuration/entityTypes/Person/attributes/EC_ID",
+              "sourcesUriOrder": [
+                "configuration/sources/BF",
+                "configuration/sources/EMS",
+                "configuration/sources/MP"
+              ],
+              "survivorshipStrategy": "SRC_SYS"
+            },
+            {
+              "attribute": "configuration/entityTypes/Person/attributes/EC_Membership",
+              "survivorshipStrategy": "Aggregation"
+            }
+          ]
+        }
+      ],
+      "abstract": false,
+      "entityTypeRoleURIs": [
+        "configuration/roles/Provider",
+        "configuration/roles/Consumer"
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "uri": "configuration/roles/Provider",
+      "label": "Provider"
+    },
+    {
+      "uri": "configuration/roles/Consumer",
+      "label": "Consumer"
+    }
+  ],
+  "survivorshipStrategies": [
+    {
+      "uri": "configuration/survivorshipStrategies/LUD",
+      "label": "Recency"
+    },
+    {
+      "uri": "configuration/survivorshipStrategies/Frequency",
+      "label": "Frequency"
+    },
+    {
+      "uri": "configuration/survivorshipStrategies/Aggregation",
+      "label": "Aggregation"
+    },
+    {
+      "uri": "configuration/survivorshipStrategies/SRC_SYS",
+      "label": "Source system"
+    },
+    {
+      "uri": "configuration/survivorshipStrategies/OldestValue",
+      "label": "Oldest value"
+    },
+    {
+      "uri": "configuration/survivorshipStrategies/MinValue",
+      "label": "Minimum value"
+    },
+    {
+      "uri": "configuration/survivorshipStrategies/MaxValue",
+      "label": "Maximum value"
+    }
+  ]
+}
