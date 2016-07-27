@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 abcd2
+=======
+abcd
+>>>>>>> 7e4e08cd6b675a8c51cbc76ecdc13f5ec2e042da
