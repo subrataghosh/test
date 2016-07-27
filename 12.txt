@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-sadsadsadsdsad
-=======
-qwqwqwqw
->>>>>>> 2593f955feb245ef87b7b3d7117e36192864e4b4
+abcd
