@@ -36,3 +36,4 @@ Assumption List
 11. If Attribute Type is "Lookup" then Lookup Code has to be provided
 12. If Attribute Type is "EntityTypes" or "RelType" then Reference Type has to be provided
 13. If L1 configuration changes then the program has to be rebuilt
+14. Added a new assumption
